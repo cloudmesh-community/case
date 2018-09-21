@@ -1,8 +1,23 @@
-# Raspbery PI 5 node CLuster Case
+# Raspbery PI 5 node Cluster Case
 
-gjfkjfdsgdsfkj
+NAmes, Gregor von Laszewski<sup>1</sup>
 
-fdkhfdsjkhf
+<sup>1</sup>Indiana University, laszewski@gmail.com 
+
+## Abstract
+
+
+## Introduction
+
+## Requirements
+
+## Design
+
+## Manufacturing Facilities
+
+## Product
+
+* box with stuff in it
 
 ![Prototype 1](images/prototype2.jpg)
 
