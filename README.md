@@ -2,8 +2,8 @@
 
 Names, Gregor von Laszewski<sup>1</sup>, Diego Ansaldo<sup>2</sup>
 
-<sup>1</sup>Indiana University, laszewski@gmail.com 
-<sup)2</sup>The Academy of Science and Entrepreneurship, diegansaldo@gmail.com
+* <sup>1</sup>Indiana University, laszewski@gmail.com 
+* <sup>2</sup>The Academy of Science and Entrepreneurship, diegansaldo@gmail.com
 
 ## Abstract
 
