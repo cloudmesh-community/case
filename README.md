@@ -27,6 +27,7 @@ Names, Eliyah Zayin<sup>1</sup>, Diego Ansaldo<sup>2</sup>, Gregor von Laszewski
 
 Bill 
 
+| No. | Cost | Description |
 | ---- | ---- | -------------------------------- |
 | 1 | $1.00 | C |
 | A | B | C |
