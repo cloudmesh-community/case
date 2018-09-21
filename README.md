@@ -21,7 +21,16 @@ Names, Eliyah Zayin<sup>1</sup>, Diego Ansaldo<sup>2</sup>, Gregor von Laszewski
 
 ## Requirements
 
+
+
 ## Design
+
+Bill 
+
+| ---- | ---- | -------------------------------- |
+| 1 | $1.00 | C |
+| A | B | C |
+
 
 ## Alternatives
 
