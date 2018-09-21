@@ -61,6 +61,8 @@ $19.19 | For Raspberry Pi 3 2 TFT LCD Display, kuman 3.5 Inch 480x320 TFT Touch 
 
 ![Prototype 1](images/prototype2.jpg)
 
+**Figure 1:** Prototype 1
+
 ## Future work
 
 19 inch rack for 40 nodes via bitscope, <https://www.festi.info/boxes.py/Rack19Box>
