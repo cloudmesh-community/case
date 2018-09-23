@@ -6,6 +6,13 @@ Names, Eliyah Zayin<sup>1</sup>, Diego Ansaldo<sup>2</sup>, Gregor von Laszewski
 * <sup>2</sup>The Academy of Science and Entrepreneurship, diegansaldo@gmail.com
 * <sup>3</sup>Indiana University, laszewski@gmail.com 
 
+
+TODO: mosve designs form 
+
+https://drive.google.com/drive/folders/1D8YjtOAh8FemuruPYPWuV4zYNxszW_wN
+
+to this github, only keep final design here.
+
 ## Abstract
 
 * case for cluster
