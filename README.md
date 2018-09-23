@@ -1,6 +1,6 @@
 # Raspbery PI 5 node Cluster Case
 
-Names, Eliyah Zayin<sup>2</sup>, Diego Ansaldo<sup>2</sup>, Gregor von Laszewski<sup>1</sup>
+Eliyah Zayin<sup>2</sup>, Diego Ansaldo<sup>2</sup>, Gregor von Laszewski<sup>1</sup>
 
 * <sup>2</sup>The Academy of Science and Entrepreneurship, diegansaldo@gmail.com
 * <sup>1</sup>Indiana University, laszewski@gmail.com 
