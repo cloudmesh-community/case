@@ -2,10 +2,9 @@
 
 Eliyah Zayin<sup>2</sup>, Diego Ansaldo<sup>3</sup>, Gregor von Laszewski<sup>1</sup>
 
+* <sup>1</sup>Indiana University, laszewski@gmail.com 
 * <sup>2</sup>The Academy of Science and Entrepreneurship, diegansaldo@gmail.com
 * <sup>3</sup>The Academy of Science and Entrepreneurship, ???@gmail.com
-* <sup>1</sup>Indiana University, laszewski@gmail.com 
-
 
 TODO: mosve designs form 
 
