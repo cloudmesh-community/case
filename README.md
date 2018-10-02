@@ -78,6 +78,8 @@ COMMENT: Not sure if I should put anything else in this section
 
 **Figure 1:** Prototype 1
 
+
+
 ![Prototype 2](images/prototype2.jpg)
 
 **Figure 2:** Prototype 2
