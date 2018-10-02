@@ -63,7 +63,7 @@ $19.19 | For Raspberry Pi 3 2 TFT LCD Display, kuman 3.5 Inch 480x320 TFT Touch 
 There were a few alternatives we looked into for creating the case before settling on the current solution.
 
 * This program creates basic boxes based on any dimension provided by the user.
-** https://www.festi.info/boxes.py/
+      * https://www.festi.info/boxes.py/
 
 ## Manufacturing Facilities
 
