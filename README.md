@@ -13,6 +13,8 @@ https://drive.google.com/drive/folders/1D8YjtOAh8FemuruPYPWuV4zYNxszW_wN
 to this github, only keep final design here.
 
 ## Abstract
+When we started designing the case we had only a few elements we wanted to incorperate. Our idea was to make an easily replicatable, easy to assemble case that could be made with as little pieces as possible while being as flexable as possible. We also wanted to keep it open source so that anyone, anywhere could use our case without having to get past some sort of paywall first. Another goal was to make the case as easy to assemble as possible, not using glue and as few little parts as possible, while making it structurally sound enough to actually protect the case. Finally we wanted to design the cases to integrate well into a shelf that could connect many clusters together.
+
 
 * case for cluster
 * iu course
@@ -22,8 +24,6 @@ to this github, only keep final design here.
 * modifiable
 * integrated into box product
 * (integrated into shelf)
-
-  When we started designing the case we had only a few elements we wanted to incorperate. Our idea was to make an easily replicatable, easy to assemble case that could be made with as little pieces as possible while being as flexable as possible. We also wanted to keep it open source so that anyone, anywhere could use our case without having to get past some sort of paywall first. Another goal was to make the case as easy to assemble as possible, not using glue and as few little parts as possible, while making it structurally sound enough to actually protect the case. Finally we wanted to design the cases to integrate well into a shelf that could connect many clusters together.
 
 ## Introduction
   Our first big hurdle in the design process was desiding on an initial design and learning our modeling program well enough to actually build it. First, we brainstormed a fairly simple first design, then we decided to jump in and start modeling. Our program of choice, OpenSCAD took a little time to get used to, because of the program first orientation, but we eventually learned enough to build our first prototype. It was very simple compared to the most current versions now, but all things considered was very impressive, and it had many of the elements still central to our current design. We had two major innovations present in our first prototypes, in one of them, the peg and slot system still used today, and the other, the smaller interlocking pieces used to distribute strain in the case. They had none of the refinements of the newer prototypes, but were a very important and large step in the process. These prototypes started what has been the most used and most important process in the design of the case: design, build, test, analyze, repeat. This process allowed us to rapidly design and test, moving the case closer and closer to completion, removing problems and adressing the requirements along the way.
