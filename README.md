@@ -71,7 +71,7 @@ There were a few alternatives we looked into for creating the case before settli
 
 * box with stuff in it
 
-![Prototype 1](images/prototype2.jpg)
+![Prototype 1](images/prototype1.jpg)
 
 **Figure 1:** Prototype 1
 
