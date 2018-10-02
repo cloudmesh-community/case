@@ -68,12 +68,20 @@ There were a few alternatives we looked into for creating the case before settli
 ## Manufacturing Facilities
 
 ## Product
+Here is the progression of our design, from the first prototype to our most recent model. 
+
+COMMENT: Not sure if I should put anything else in this section
 
 * box with stuff in it
 
 ![Prototype 1](images/prototype1.jpg)
 
 **Figure 1:** Prototype 1
+
+![Prototype 2](images/prototype2.jpg)
+
+**Figure 2:** Prototype 2
+
 
 ## Future work
 
