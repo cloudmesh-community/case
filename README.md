@@ -33,7 +33,9 @@ There were a few requirements presented to us at the beginning of the design pro
 
 ## Design
 
-The list of parts is provided in Table 1.
+The list of parts not including the custom made lazer cut parts is provided in Table 1.
+
+COMMENT: Not sure what else to put here. Should it be a description of the design process, a description of the current design, or none of the above? Thanks for the clarification.
 
 Table 1: Parts list as copied from <https://github.com/cloudmesh-community/book/blob/master/chapters/pi/case.md>
 
