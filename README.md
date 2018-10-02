@@ -23,6 +23,8 @@ to this github, only keep final design here.
 * integrated into box product
 * (integrated into shelf)
 
+  When we started designing the case we had only a few elements we wanted to incorperate. Our idea was to make an easily replicatable, easy to assemble case that could be made with as little pieces as possible while being as flexable as possible. We also wanted to keep it open source so that anyone, anywhere could use our case without having to get past some sort of paywall first. Another goal was to make the case as easy to assemble as possible, not using glue and as few little parts as possible, while making it structurally sound enough to actually protect the case. Finally we wanted to design the cases to integrate well into a shelf that could connect many clusters together.
+
 ## Introduction
 
 ## Requirements
