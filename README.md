@@ -78,18 +78,17 @@ COMMENT: Not sure if I should put anything else in this section
 
 **Figure 1:** Prototype 1
 
-
-
 ![Prototype 2](images/prototype2.jpg)
 
 **Figure 2:** Prototype 2
 
 
 ## Future work
+We will continue to work on the current design, but it is nearing completion, and we have a few more related projects for the future:
+* 19 inch rack for 40 nodes via bitscope, <https://www.festi.info/boxes.py/Rack19Box>
+* Shelf for 5 Pi cases.
 
-19 inch rack for 40 nodes via bitscope, <https://www.festi.info/boxes.py/Rack19Box>
-
-shelf for 5 node clusters.
+COMMENT: Should I add more here?
 
 ## Refernces
 
