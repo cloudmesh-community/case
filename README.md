@@ -1,6 +1,6 @@
 # Raspbery PI 5 node Cluster Case
 
-Eliyah Zayin<sup>2</sup>, Diego Ansaldo<sup>3</sup>, Gregor von Laszewski<sup>1</sup>
+Eliyah Zayin<sup>3</sup>, Diego Ansaldo<sup>2</sup>, Gregor von Laszewski<sup>1</sup>
 
 * <sup>1</sup>Indiana University, laszewski@gmail.com 
 * <sup>2</sup>The Academy of Science and Entrepreneurship, diegansaldo@gmail.com
@@ -66,6 +66,7 @@ There were a few alternatives we looked into for creating the case before settli
     - https://www.festi.info/boxes.py/
 
 ## Manufacturing Facilities
+Most of our testing and production of cases were conducted at the maker space at Luddy Hall of IU's School of Informatics and Computing Engineering.
 
 ## Product
 Here is the progression of our design, from the first prototype to our most recent model. 
