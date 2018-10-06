@@ -68,6 +68,9 @@ There were a few alternatives we looked into for creating the case before settli
 ## Manufacturing Facilities
 Most of our testing and production of cases were conducted at the maker space at Luddy Hall of IU's School of Informatics and Computing Engineering.
 
+## Converting the Design for Laser Cutting
+To produce a phyisical copy of our prototypes, we could not simply use the file in it's SCAD format. To ready the design for laser cutting, we first hav to export the file as a SVG. One this is done, the file can be edited in a graphic design program, such as Adobe Illustrator. Edits reqired to prepare the design include the removal of the interior fill color of the case components and adjustment of the edges for cutting.
+
 ## Product
 Here is the progression of our design, from the first prototype to our most recent model. 
 
