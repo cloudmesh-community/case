@@ -4,7 +4,7 @@ Eliyah Zayin<sup>3</sup>, Diego Ansaldo<sup>2</sup>, Gregor von Laszewski<sup>1<
 
 * <sup>1</sup>Indiana University, laszewski@gmail.com 
 * <sup>2</sup>The Academy of Science and Entrepreneurship, diegansaldo@gmail.com
-* <sup>3</sup>The Academy of Science and Entrepreneurship, ???@gmail.com
+* <sup>3</sup>The Academy of Science and Entrepreneurship, eliyahzayin@gmail.com
 
 TODO: move designs form 
 
@@ -69,9 +69,11 @@ There were a few alternatives we looked into for creating the case before settli
 Most of our testing and production of cases were conducted at the maker space at Luddy Hall of IU's School of Informatics and Computing Engineering.
 
 ## Converting the Design for Laser Cutting
-To produce a phyisical copy of our prototypes, we could not simply use the file in it's SCAD format. To ready the design for laser cutting, we first hav to export the file as a SVG. One this is done, the file can be edited in a graphic design program, such as Adobe Illustrator. Edits reqired to prepare the design include the removal of the interior fill color of the case components and adjustment of the edges for cutting. The laser cutter is preset to cut along red lines with a low thickness. For the prototypes, we used a 0.03 point thickness. The design must also be correctly scaled to the right size. So far, we have achived the corect scaling by finding a feature within the design and find the correct scale factor by measuring it. We are currently considering the posiblity of using the size of the rectangle the case fits into; this should speed up the process, since the dimentions can be referenced by viewing the document's dimentions.
+To produce a phyisical copy of our prototypes, we could not simply use the file in it's SCAD format. To ready the design for laser cutting, we first hav to export the file as a SVG. One this is done, the file can be edited in a graphic design program, such as Adobe Illustrator. Edits reqired to prepare the design include the removal of the interior fill color of the case components and adjustment of the edges for cutting. The laser cutter is preset to cut along red lines with a low thickness. For the prototypes, we used a 0.03 point thickness.
 
+The design must also be correctly scaled to the right size. So far, we have achived the corect scaling by finding a feature within the design and find the correct scale factor by measuring it. We are currently considering the posiblity of using the size of the rectangle the case fits into; this should speed up the process, since the dimentions can be viewed in Illustrator by clicking on the artboard tab on the right vertical tool bar and selecting the artboard setings button. Once the design is appropriatly scaled, the artboard must be scaled up as well.
 
+Once all editing is done, the design can be cut. This can be done by selecting the print option in the graphic design program and clicking on setings, in Illustrator, this can be found in the lower left corner of the main print window. If the laser cutter is not selected as the printer, it will need to be selected. The dimentions in the print setings will also need to be adjusted if they are smaller than the size of the design; in Illustrator, the size can be changed under preferences, which is located directly beneath the printer selection. The setings window can now be closed and the "print" button on the main print window can be selected. This will send the file to the laser cutter as a job.
 
 ## Product
 Here is the progression of our design, from the first prototype to our most recent model. 
