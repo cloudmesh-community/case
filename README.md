@@ -33,7 +33,9 @@ There were a few requirements presented to us at the beginning of the design pro
 
 ## Design
 
-The list of parts not including the custom made lazer cut parts is provided in Table 1.
+Laser cut parts utilize 3mm cut-to-size acrylic supplied to IU from https://www.tapplastics.com/product/plastics/cut_to_size_plastic. To ensure that the matterial will fit into the laser cutter, acrylic sheets are ordered with dimentions reduced by a quater inch. Acrylic may come cast or extruded. Choosing cast acrylic will give a higher quality in color and engraving but it is also more expensive.
+
+The list of parts not including the custom made laser cut parts is provided in Table 1.
 
 COMMENT: Not sure what else to put here. Should it be a description of the design process, a description of the current design, or none of the above? Thanks for the clarification.
 
@@ -66,7 +68,7 @@ There were a few alternatives we looked into for creating the case before settli
     - https://www.festi.info/boxes.py/
 
 ## Manufacturing Facilities
-Most of our testing and production of cases were conducted at the maker space at Luddy Hall of IU's School of Informatics and Computing Engineering.
+Most of our testing and production of cases were conducted at the maker space at Luddy Hall of IU's School of Informatics and Computing Engineering. Luddy Hall has two laser cutters, both from Trotech; the Speedy 360 and the Speedy 400. The 360 has a 813x508mm bed while the 400 has a 1000x610mm bed. For our chosen matterial, acrylic, the machines can cut for matterial thicknesses less than 6mm.
 
 ## Converting the Design for Laser Cutting
 To produce a phyisical copy of our prototypes, we could not simply use the file in it's SCAD format. To ready the design for laser cutting, we first hav to export the file as a SVG. One this is done, the file can be edited in a graphic design program, such as Adobe Illustrator. Edits reqired to prepare the design include the removal of the interior fill color of the case components and adjustment of the edges for cutting. The laser cutter is preset to cut along red lines with a low thickness. For the prototypes, we used a 0.03 point thickness.
