@@ -115,6 +115,8 @@ We will continue to work on the current design, but it is nearing completion, an
 
 COMMENT: Should I add more here?
 
+This section lacks details that you need to add. See the links for example in the refernces which already have some information. You also need to create the shelf in some fashipn whhile placing the clusters in it to demonstrate how the shelf would look like.
+
 ## Refernces
 
 * Other cases are at <https://github.com/cloudmesh-community/book/blob/master/chapters/pi/case.md>
