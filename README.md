@@ -13,7 +13,16 @@ https://drive.google.com/drive/folders/1D8YjtOAh8FemuruPYPWuV4zYNxszW_wN
 to this github, only keep final design here.
 
 ## Abstract
-When we started designing the case we had only a few elements we wanted to incorperate. Our idea was to make an easily replicatable, easy to assemble case that could be made with as little pieces as possible while being as flexable as possible. We also wanted to keep it open source so that anyone, anywhere could use our case without having to get past some sort of paywall first. Another goal was to make the case as easy to assemble as possible, not using glue and as few little parts as possible, while making it structurally sound enough to actually protect the case. Finally we wanted to design the cases to integrate well into a shelf that could connect many clusters together.
+
+Why doe we need PI clusters ....
+
+Why do we need a case ...
+
+How do we anticipate the case is used ...
+
+Based on these requiremnts we designing a Raspbery PI Case for five PI's qout of laser cut sheets with the goals of keeping the design as simple as possible, using few parts as do minimize production costs, allowing for easy assembly without screws or glue, while making it structurally sound. Furthermore we  allow reproducability throup open sourcing the design.
+
+To accomodate larger clusters in the class setting a Shelf is proposed in which we *place* the miniclusters while attaching it through a power distribution bar and a large network switch to integarte the individual clusters into the larger cluster.
 
 
 * case for cluster
@@ -25,10 +34,13 @@ When we started designing the case we had only a few elements we wanted to incor
 * integrated into box product
 * (integrated into shelf)
 
-## Introduction
-Our first big hurdle in the design process was desiding on an initial design and learning our modeling program well enough to actually build it. First, we brainstormed a fairly simple first design, then we decided to jump in and start modeling. Our program of choice, OpenSCAD took a little time to get used to, because of the program first orientation, but we eventually learned enough to build our first prototype. It was very simple compared to the most current versions now, but all things considered was very impressive, and it had many of the elements still central to our current design. We had two major innovations present in our first prototypes, in one of them, the peg and slot system still used today, and the other, the smaller interlocking pieces used to distribute strain in the case. They had none of the refinements of the newer prototypes, but were a very important and large step in the process. These prototypes started what has been the most used and most important process in the design of the case: design, build, test, analyze, repeat. This process allowed us to rapidly design and test, moving the case closer and closer to completion, removing problems and adressing the requirements along the way.
+## Introduction :o: this is an experinec report or a result, but not an introduction
+
+Our first big hurdle in the design process was desiding on an initial design and learning our modeling program well enough to actually build it. First, we brainstormed a fairly simple first design, then we decided to jump in and start modeling. 
+Our program of choice, OpenSCAD took a little time to get used to, because of the program first orientation, but we eventually learned enough to build our first prototype. It was very simple compared to the most current versions now, but all things considered was very impressive, and it had many of the elements still central to our current design. We had two major innovations present in our first prototypes, in one of them, the peg and slot system still used today, and the other, the smaller interlocking pieces used to distribute strain in the case. They had none of the refinements of the newer prototypes, but were a very important and large step in the process. These prototypes started what has been the most used and most important process in the design of the case: design, build, test, analyze, repeat. This process allowed us to rapidly design and test, moving the case closer and closer to completion, removing problems and adressing the requirements along the way.
 
 ## Requirements
+
 There were a few requirements presented to us at the beginning of the design process: The cluster had to hold at least 5 Raspberry Pi 3 computers as well as a network hub and a power brick, it could not use any glue to stay together, it had to fully incase all parts while having holes for any ports and ventilation, it had to keep all components secure and safe, and the code had to use only variables to define the parts so any change could be easy to adjust to. While there were other components that would be nice to have, these were the main pieces that had to be incorperated. 
 
 ## Design
@@ -62,15 +74,18 @@ $19.19 | For Raspberry Pi 3 2 TFT LCD Display, kuman 3.5 Inch 480x320 TFT Touch 
 
 
 ## Alternatives
+
 There were a few alternatives we looked into for creating the case before settling on the current solution.
 
 * This program creates basic boxes based on any dimension provided by the user.
     - https://www.festi.info/boxes.py/
 
 ## Manufacturing Facilities
+
 Most of our testing and production of cases were conducted at the maker space at Luddy Hall of IU's School of Informatics and Computing Engineering. Luddy Hall has two laser cutters, both from Trotech; the Speedy 360 and the Speedy 400. The 360 has a 813x508mm bed while the 400 has a 1000x610mm bed. For our chosen matterial, acrylic, the machines can cut for matterial thicknesses less than 6mm.
 
 ## Converting the Design for Laser Cutting
+
 To produce a phyisical copy of our prototypes, we could not simply use the file in it's SCAD format. To ready the design for laser cutting, we first hav to export the file as a SVG. One this is done, the file can be edited in a graphic design program, such as Adobe Illustrator. Edits reqired to prepare the design include the removal of the interior fill color of the case components and adjustment of the edges for cutting. The laser cutter is preset to cut along red lines with a low thickness. For the prototypes, we used a 0.03 point thickness.
 
 The design must also be correctly scaled to the right size. So far, we have achived the corect scaling by finding a feature within the design and find the correct scale factor by measuring it. We are currently considering the posiblity of using the size of the rectangle the case fits into; this should speed up the process, since the dimentions can be viewed in Illustrator by clicking on the artboard tab on the right vertical tool bar and selecting the artboard setings button. Once the design is appropriatly scaled, the artboard must be scaled up as well.
@@ -78,6 +93,7 @@ The design must also be correctly scaled to the right size. So far, we have achi
 Once all editing is done, the design can be cut. This can be done by selecting the print option in the graphic design program and clicking on setings, in Illustrator, this can be found in the lower left corner of the main print window. If the laser cutter is not selected as the printer, it will need to be selected. The dimentions in the print setings will also need to be adjusted if they are smaller than the size of the design; in Illustrator, the size can be changed under preferences, which is located directly beneath the printer selection. The setings window can now be closed and the "print" button on the main print window can be selected. This will send the file to the laser cutter as a job.
 
 ## Product
+
 Here is the progression of our design, from the first prototype to our most recent model. 
 
 COMMENT: Not sure if I should put anything else in this section
@@ -94,6 +110,7 @@ COMMENT: Not sure if I should put anything else in this section
 
 
 ## Future work
+
 We will continue to work on the current design, but it is nearing completion, and we have a few more related projects for the future:
 * 19 inch rack for 40 nodes via bitscope, <https://www.festi.info/boxes.py/Rack19Box>
 * Shelf for 5 Pi cases.
