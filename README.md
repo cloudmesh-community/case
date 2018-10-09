@@ -16,23 +16,20 @@ to this github, only keep final design here.
 
 Why doe we need PI clusters ....
 
+* iu course
+
 Why do we need a case ...
 
+* protect, students take cluster home, students bring cluster to class
+
 How do we anticipate the case is used ...
+
+* want to have access to the components for reuse
 
 Based on these requiremnts we designing a Raspbery PI Case for five PI's qout of laser cut sheets with the goals of keeping the design as simple as possible, using few parts as do minimize production costs, allowing for easy assembly without screws or glue, while making it structurally sound. Furthermore we  allow reproducability throup open sourcing the design.
 
 To accomodate larger clusters in the class setting a Shelf is proposed in which we *place* the miniclusters while attaching it through a power distribution bar and a large network switch to integarte the individual clusters into the larger cluster.
-
-
-* case for cluster
-* iu course
-* case easy to assmple no screws, glue
-* easy replicatable
-* open source
-* modifiable
-* integrated into box product
-* (integrated into shelf)
+Furthermore we want to create a product in a box called *Cloudmesh Pi Cluster* that we can give to students so they  can assemble such a cluster themself, or order the parts directly from us and we ship the parts and the cluster case to them.
 
 ## Introduction :o: this is an experinec report or a result, but not an introduction
 
