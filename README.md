@@ -102,6 +102,11 @@ COMMENT: Not sure if I should put anything else in this section
 **Figure 2:** Prototype 2
 
 
+### Cloudmesh Pi Cluster in a Box
+
+This section describes the design of the box in which we package the cluster ready for shipping or didtribution to students.
+
+
 ## Future work
 
 We will continue to work on the current design, but it is nearing completion, and we have a few more related projects for the future:
