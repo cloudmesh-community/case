@@ -1,4 +1,4 @@
-# Raspbery PI 5 node Cluster Case
+# Raspbery PI 5 Node Cluster Case
 
 Eliyah Zayin<sup>3</sup>, Diego Ansaldo<sup>2</sup>, Gregor von Laszewski<sup>1</sup>
 
