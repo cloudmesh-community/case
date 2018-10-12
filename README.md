@@ -91,8 +91,6 @@ Here is the progression of our design, from the first prototype to our most rece
 
 COMMENT: Not sure if I should put anything else in this section
 
-* box with stuff in it
-
 ![Prototype 1](images/prototype1.jpg)
 
 **Figure 1:** Prototype 1
@@ -101,6 +99,17 @@ COMMENT: Not sure if I should put anything else in this section
 
 **Figure 2:** Prototype 2
 
+![Prototype 3](images/prototype3.jpg)
+
+**Figure 3:** Prototype 3
+
+![Prototype 4](images/prototype4.1.jpg)
+
+**Figure 4:** Prototype 4
+
+![Prototype 4](images/prototype4.2.jpg)
+
+**Figure 5:** Prototype 4
 
 ### Cloudmesh Pi Cluster in a Box
 
