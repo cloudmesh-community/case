@@ -42,7 +42,11 @@ There were a few requirements presented to us at the beginning of the design pro
 ## Design
 
 Laser cut parts utilize 3mm cut-to-size acrylic supplied to IU from https://www.tapplastics.com/product/plastics/cut_to_size_plastic. To ensure that the matterial will fit into the laser cutter, acrylic sheets are ordered with dimentions reduced by a quater inch. Acrylic may come cast or extruded. Choosing cast acrylic will give a higher quality in color and engraving but it is also more expensive.
+Here is a list of acrylic options based on the size of the case aranged as it would be for cutting.
 
+    *Extruded Acrylic (Clear): $11.16
+    *Cast Acrylic (Clear): $16.41
+    *Cast Acrylic (Transparent Colors): $18.81
 The list of parts not including the custom made laser cut parts is provided in Table 1.
 
 COMMENT: Not sure what else to put here. Should it be a description of the design process, a description of the current design, or none of the above? Thanks for the clarification.
