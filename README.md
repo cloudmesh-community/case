@@ -86,7 +86,9 @@ Once all editing is done, the design can be cut. This can be done by selecting t
 
 ## Product
 
-Here is the progression of our design, from the first prototype to our most recent model. 
+Here is the progression of our design, from the first prototype to our most recent model, as well as a link to the .scad and .svg files for the most recent case designs:
+
+<https://github.com/cloudmesh-community/case/tree/master/design/openscadfiles>
 
 COMMENT: Not sure if I should put anything else in this section
 
