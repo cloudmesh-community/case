@@ -42,7 +42,7 @@ There were a few requirements presented to us at the beginning of the design pro
 ## Design
 
 Laser cut parts utilize 3mm cut-to-size acrylic supplied to IU from https://www.tapplastics.com/product/plastics/cut_to_size_plastic.
-To ensure that the matterial will fit into the laser cutter, acrylic sheets are ordered with dimentions reduced by a quater inch. Acrylic may come cast or extruded. Choosing cast acrylic will give a higher quality in color and engraving but it is also more expensive.
+Acrylic may come cast or extruded. Choosing cast acrylic will give a higher quality in color and engraving but it is also more expensive.
 Here is a list of acrylic options based on the size of the case aranged as it would be for cutting; this is about 21 3/16inx 15in.
 
 * Extruded Acrylic (Clear): $11.16
@@ -80,7 +80,7 @@ There were a few alternatives we looked into for creating the case before settli
 
 ## Manufacturing Facilities
 
-Most of our testing and production of cases were conducted at the maker space at Luddy Hall of IU's School of Informatics and Computing Engineering. Luddy Hall has two laser cutters, both from Trotech; the Speedy 360 and the Speedy 400. The 360 has a 813x508mm bed while the 400 has a 1000x610mm bed. For our chosen matterial, acrylic, the machines can cut for matterial thicknesses less than 6mm.
+Most of our testing and production of cases were conducted at the maker space at Luddy Hall of IU's School of Informatics and Computing Engineering. Luddy Hall has two laser cutters, both from Trotech; the Speedy 360 and the Speedy 400. The 360 has a 813x508mm bed while the 400 has a 1000x610mm bed. For our chosen matterial, acrylic, the machines can cut for matterial thicknesses less than 6mm. To ensure that the matterial will fit into the laser cutter, ordered acrylic sheets are limited to the dimentions of the bed minus a quater inch.
 
 ## Converting the Design for Laser Cutting
 
