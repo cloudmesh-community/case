@@ -47,7 +47,7 @@ jobs:
             echo "export VERSION=$VERSION" >> $BASH_ENV
 
       - run:
-          name: "Publish Release on GitHub 1"
+          name: "Publish Release on GitHub 2"
           command: |
             go get github.com/tcnksm/ghr
             ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME} -c ${CIRCLE_SHA1} -delete ${VERSION}  vonLaszewski-pi-cluster-case.epub
