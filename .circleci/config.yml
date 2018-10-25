@@ -44,7 +44,10 @@ jobs:
       - image: circleci/golang:1.8
     steps:
       - attach_workspace:
-          at: ./artifacts  
+          at: ./artifacts
+      - run:
+          name: where
+          command: ls; pwd
       - run:
           name: VERSION
           command: |
