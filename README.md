@@ -166,7 +166,7 @@ laser cutter as a job.
 
 Images of the case, place them wher eneeded
 
-The case is shown in Figures {fig:case-5d0},
+The case is shown in Figures {@fig:case-5d0},
 {@fig:case-5d1},
 {@fig:case-5d2},
 {@fig:case-5d5},
@@ -184,28 +184,40 @@ The case is shown in Figures {fig:case-5d0},
 {@fig:case-7cf},
 {@fig:case-7d0}.
 
+test +@fig:case-7d0.
+
+create proper sentences with refs for images
+
+### Transparent Case
+
 ![Case](images/UNADJUSTEDNONRAW_thumb_5d0.jpg){#fig:case-5d0}
-![Case](images/UNADJUSTEDNONRAW_thumb_5d1.jpg){#fig:case-5d1}
-![Case](images/UNADJUSTEDNONRAW_thumb_5d2.jpg){#fig:case-5d2}
-![Case](images/UNADJUSTEDNONRAW_thumb_5d5.jpg){#fig:case-5d5}
-![Case](images/UNADJUSTEDNONRAW_thumb_5d6.jpg){#fig:case-5d6}
-![Case](images/UNADJUSTEDNONRAW_thumb_5d7.jpg){#fig:case-5d7}
-![Case](images/UNADJUSTEDNONRAW_thumb_7ad.jpg){#fig:case-7ad}
-![Case](images/UNADJUSTEDNONRAW_thumb_7ae.jpg){#fig:case-7ae}
-![Case](images/UNADJUSTEDNONRAW_thumb_7af.jpg){#fig:case-7af}
-![Case](images/UNADJUSTEDNONRAW_thumb_7b7.jpg){#fig:case-7b7}
-![Case](images/UNADJUSTEDNONRAW_thumb_7b8.jpg){#fig:case-7b8}
-![Case](images/UNADJUSTEDNONRAW_thumb_7b9.jpg){#fig:case-7b9}
-![Case](images/UNADJUSTEDNONRAW_thumb_7ba.jpg){#fig:case-7ba}
+![Case](images/UNADJUSTEDNONRAW_thumb_5d1.jpg){#fig:case-5d1  width=50%}
+![Case](images/UNADJUSTEDNONRAW_thumb_5d2.jpg){#fig:case-5d2  width=50%}
+![Case](images/UNADJUSTEDNONRAW_thumb_5d5.jpg){#fig:case-5d5  width=50%}
+![Case](images/UNADJUSTEDNONRAW_thumb_5d6.jpg){#fig:case-5d6  width=50%}
+![Case](images/UNADJUSTEDNONRAW_thumb_5d7.jpg){#fig:case-5d7  width=50%}
+
+### Red Case
+
+![Case](images/UNADJUSTEDNONRAW_thumb_7ad.jpg){#fig:case-7ad  width=50%}
+![Case](images/UNADJUSTEDNONRAW_thumb_7ae.jpg){#fig:case-7ae  width=50%}
+![Case](images/UNADJUSTEDNONRAW_thumb_7af.jpg){#fig:case-7af  width=50%}
+
+### Balck Case
+
+![Case](images/UNADJUSTEDNONRAW_thumb_7b7.jpg){#fig:case-7b7  width=50%}
+![Case](images/UNADJUSTEDNONRAW_thumb_7b8.jpg){#fig:case-7b8  width=50%}
+![Case](images/UNADJUSTEDNONRAW_thumb_7b9.jpg){#fig:case-7b9  width=50%}
+![Case](images/UNADJUSTEDNONRAW_thumb_7ba.jpg){#fig:case-7ba  width=50%}
 
 ## Exhibit
 
 Exhibit at make vention, urls, and so forth, describe what it is
 
-![Case](images/UNADJUSTEDNONRAW_thumb_7cd.jpg){#fig:case-7cd}
-![Case](images/UNADJUSTEDNONRAW_thumb_7ce.jpg){#fig:case-7ce}
-![Case](images/UNADJUSTEDNONRAW_thumb_7cf.jpg){#fig:case-7cf}
-![Case](images/UNADJUSTEDNONRAW_thumb_7d0.jpg){#fig:case-7d0}
+![Case](images/UNADJUSTEDNONRAW_thumb_7cd.jpg){#fig:case-7cd  width=50%}
+![Case](images/UNADJUSTEDNONRAW_thumb_7ce.jpg){#fig:case-7ce  width=50%}
+![Case](images/UNADJUSTEDNONRAW_thumb_7cf.jpg){#fig:case-7cf  width=50%}
+![Case](images/UNADJUSTEDNONRAW_thumb_7d0.jpg){#fig:case-7d0  width=50%}
 
 
 ## Product
@@ -256,4 +268,5 @@ in it to demonstrate how the shelf would look like.
 * Website for OpenSCAD http://www.openscad.org/index.html
 
 
-###
+[@www-test]
+
