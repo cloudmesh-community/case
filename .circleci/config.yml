@@ -55,6 +55,6 @@ workflows:
   build:
     jobs:
       - build
-      - publish
+      - publish:
           requires:
             - build
