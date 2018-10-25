@@ -32,9 +32,9 @@ jobs:
       - store_artifacts:
           path: vonLaszewski-pi-cluster-case.epub
           destination: vonLaszewski-pi-cluster-case.epub
-      - run:
-          name: pdf
-          command: make pdf
-      - store_artifacts:
-          path: vonLaszewski-pi-cluster-case.pdf
-          destination: vonLaszewski-pi-cluster-case.pdf
+#      - run:
+#          name: pdf
+#          command: make pdf
+#      - store_artifacts:
+#          path: vonLaszewski-pi-cluster-case.pdf
+#          destination: vonLaszewski-pi-cluster-case.pdf
