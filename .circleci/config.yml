@@ -45,7 +45,7 @@ jobs:
     steps:
       - attach_workspace:
           at: ./artifacts  
-      - run: VERSION
+      - run:
           name: VERSION
           command: |
             VERSION=$CIRCLE_TAG
