@@ -38,16 +38,6 @@ jobs:
 #     - store_artifacts:
 #          path: vonLaszewski-pi-cluster-case.pdf
 #          destination: vonLaszewski-pi-cluster-case.pdf
-
-  publish:
-    docker:
-      - image: circleci/golang:1.8
-    steps:
-#      - attach_workspace:
-#          at: ./artifacts
-      - run:
-          name: where
-          command: ls; pwd
       - run:
           name: VERSION
           command: |
@@ -61,11 +51,3 @@ jobs:
           command: |
             go get github.com/tcnksm/ghr
             ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME} -c ${CIRCLE_SHA1} -delete ${VERSION}  vonLaszewski-pi-cluster-case.epub
-workflows:
-  version: 2
-  deploy:
-    jobs:
-      - build
-      - publish:
-          requires:
-            - build
