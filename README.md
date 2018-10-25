@@ -12,6 +12,8 @@ https://drive.google.com/drive/folders/1D8YjtOAh8FemuruPYPWuV4zYNxszW_wN
 
 to this github, only keep final design here.
 
+:o: Lots of work needed
+
 ## Abstract
 
 Why doe we need PI clusters ....
