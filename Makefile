@@ -22,4 +22,4 @@ epub:
 	@echo "###############################################################################"
 	@echo "# create" $(FILENAME).epub
 	@echo "###############################################################################"
-	pandoc $(RESOURCE) $(MARKDOWN-OPTIONS)  $(FORMAT) $(FONTS) $(BIB)  $(CSL) $(CSS) -o $(FILENAME).epub metadata.txt title.md README.md
+	pandoc $(RESOURCE) $(MARKDOWN-OPTIONS)  $(FORMAT) $(FONTS) $(BIB)  $(CSL) $(CSS) -o $(FILENAME).epub metadata.txt title.md README.md; false
