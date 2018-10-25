@@ -117,7 +117,7 @@ Table 1: Parts list as copied from <https://github.com/cloudmesh-community/book/
 There were a few alternatives we looked into for creating the case before settling on the current solution.
 
 * This program creates basic boxes based on any dimension provided by the user.
-    - https://www.festi.info/boxes.py/
+  - https://www.festi.info/boxes.py/
 
 ## Manufacturing Facilities
 
@@ -166,58 +166,72 @@ laser cutter as a job.
 
 Images of the case, place them wher eneeded
 
-The case is shown in Figures {@fig:case-5d0},
-{@fig:case-5d1},
-{@fig:case-5d2},
-{@fig:case-5d5},
-{@fig:case-5d6},
-{@fig:case-5d7},
-{@fig:case-7ad},
-{@fig:case-7ae},
-{@fig:case-7af},
-{@fig:case-7b7},
-{@fig:case-7b8},
-{@fig:case-7b9},
-{@fig:case-7ba},
-{@fig:case-7cd},
-{@fig:case-7ce},
-{@fig:case-7cf},
-{@fig:case-7d0}.
+The case is shown in Figures
+{@fig:case5d0},
+{@fig:case5d1},
+{@fig:case5d2},
+{@fig:case5d5},
+{@fig:case5d6},
+{@fig:case5d7},
+{@fig:case7ad},
+{@fig:case7ae},
+{@fig:case7af},
+{@fig:case7b7},
+{@fig:case7b8},
+{@fig:case7b9},
+{@fig:case7ba},
+{@fig:case7cd},
+{@fig:case7ce},
+{@fig:case7cf},
+{@fig:case7d0}.
 
-test +@fig:case-7d0.
+test +@fig:case7d0.
 
 create proper sentences with refs for images
 
 ### Transparent Case
 
-![Case](images/UNADJUSTEDNONRAW_thumb_5d0.jpg){#fig:case-5d0}
-![Case](images/UNADJUSTEDNONRAW_thumb_5d1.jpg){#fig:case-5d1  width=50%}
-![Case](images/UNADJUSTEDNONRAW_thumb_5d2.jpg){#fig:case-5d2  width=50%}
-![Case](images/UNADJUSTEDNONRAW_thumb_5d5.jpg){#fig:case-5d5  width=50%}
-![Case](images/UNADJUSTEDNONRAW_thumb_5d6.jpg){#fig:case-5d6  width=50%}
-![Case](images/UNADJUSTEDNONRAW_thumb_5d7.jpg){#fig:case-5d7  width=50%}
+![Case](images/UNADJUSTEDNONRAW_thumb_5d0.jpg){#fig:case5d0 with=50%}
+
+![Case](images/UNADJUSTEDNONRAW_thumb_5d1.jpg){#fig:case5d1 with=50%}
+
+![Case](images/UNADJUSTEDNONRAW_thumb_5d2.jpg){#fig:case5d2 with=50%}
+
+![Case](images/UNADJUSTEDNONRAW_thumb_5d5.jpg){#fig:case5d5 with=50%}
+
+![Case](images/UNADJUSTEDNONRAW_thumb_5d6.jpg){#fig:case5d6 with=50%}
+
+![Case](images/UNADJUSTEDNONRAW_thumb_5d7.jpg){#fig:case5d7 with=50%}
 
 ### Red Case
 
-![Case](images/UNADJUSTEDNONRAW_thumb_7ad.jpg){#fig:case-7ad  width=50%}
-![Case](images/UNADJUSTEDNONRAW_thumb_7ae.jpg){#fig:case-7ae  width=50%}
-![Case](images/UNADJUSTEDNONRAW_thumb_7af.jpg){#fig:case-7af  width=50%}
+![Case](images/UNADJUSTEDNONRAW_thumb_7ad.jpg){#fig:case7ad with=50%}
+
+![Case](images/UNADJUSTEDNONRAW_thumb_7ae.jpg){#fig:case7ae with=50%}
+
+![Case](images/UNADJUSTEDNONRAW_thumb_7af.jpg){#fig:case7af with=50%}
 
 ### Balck Case
 
-![Case](images/UNADJUSTEDNONRAW_thumb_7b7.jpg){#fig:case-7b7  width=50%}
-![Case](images/UNADJUSTEDNONRAW_thumb_7b8.jpg){#fig:case-7b8  width=50%}
-![Case](images/UNADJUSTEDNONRAW_thumb_7b9.jpg){#fig:case-7b9  width=50%}
-![Case](images/UNADJUSTEDNONRAW_thumb_7ba.jpg){#fig:case-7ba  width=50%}
+![Case](images/UNADJUSTEDNONRAW_thumb_7b7.jpg){#fig:case7b7 with=50%}
+
+![Case](images/UNADJUSTEDNONRAW_thumb_7b8.jpg){#fig:case7b8 with=50%} 
+
+![Case](images/UNADJUSTEDNONRAW_thumb_7b9.jpg){#fig:case7b9 with=50%}
+
+![Case](images/UNADJUSTEDNONRAW_thumb_7ba.jpg){#fig:case7ba with=50%}
 
 ## Exhibit
 
 Exhibit at make vention, urls, and so forth, describe what it is
 
-![Case](images/UNADJUSTEDNONRAW_thumb_7cd.jpg){#fig:case-7cd  width=50%}
-![Case](images/UNADJUSTEDNONRAW_thumb_7ce.jpg){#fig:case-7ce  width=50%}
-![Case](images/UNADJUSTEDNONRAW_thumb_7cf.jpg){#fig:case-7cf  width=50%}
-![Case](images/UNADJUSTEDNONRAW_thumb_7d0.jpg){#fig:case-7d0  width=50%}
+![Case](images/UNADJUSTEDNONRAW_thumb_7cd.jpg){#fig:case7cd with=50%}
+
+![Case](images/UNADJUSTEDNONRAW_thumb_7ce.jpg){#fig:case7ce with=50%}
+
+![Case](images/UNADJUSTEDNONRAW_thumb_7cf.jpg){#fig:case7cf with=50%}
+
+![Case](images/UNADJUSTEDNONRAW_thumb_7d0.jpg){#fig:case7d0 with=50%}
 
 
 ## Product
@@ -262,11 +276,14 @@ example in the refernces which already have some information. You also
 need to create the shelf in some fashipn whhile placing the clusters
 in it to demonstrate how the shelf would look like.
 
+
+Here we test a refernce [@www-test]. They need to be placed in
+refernces.bib in bibtex format.
+
+
 ## Refernces
 
 * Other cases are at <https://github.com/cloudmesh-community/book/blob/master/chapters/pi/case.md>
 * Website for OpenSCAD http://www.openscad.org/index.html
 
-
-[@www-test]
 
