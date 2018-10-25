@@ -44,7 +44,7 @@ jobs:
            echo "VERSION=$VERSION"
            echo "export VERSION=$VERSION" >> $BASH_ENV
 
-publish:
+  publish:
     docker:
       - image: circleci/golang:1.8
     steps:
