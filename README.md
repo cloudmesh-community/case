@@ -87,7 +87,7 @@ https://www.tapplastics.com/product/plastics/cut_to_size_plastic.
 Acrylic may come cast or extruded. Choosing cast acrylic will give a
 higher quality in color and engraving but it is also more expensive.
 Here is a list of acrylic options based on the size of the case
-aranged as it would be for cutting; this is about 21 3/16inx 15in.
+aranged as it would be for cutting; this is about 21 3/16in x 15in.
 
 * Extruded Acrylic (Clear): $11.16
 * Cast Acrylic (Clear): $16.41
@@ -149,8 +149,10 @@ and find the correct scale factor by measuring it. We are currently
 considering the posiblity of using the size of the rectangle the case
 fits into; this should speed up the process, since the dimentions can
 be viewed in Illustrator by clicking on the artboard tab on the right
-vertical tool bar and selecting the artboard setings button. Once the
-design is appropriatly scaled, the artboard must be scaled up as well.
+vertical tool bar and selecting the artboard setings button. The correct
+scale factor can be calculated by dividing the desired lenght by the length
+of the artboard. Then select all objects and scale them by the calculated factor.
+Once this is done, the artboard must be scaled up as well.
 
 Once all editing is done, the design can be cut. This can be done by
 selecting the print option in the graphic design program and clicking
