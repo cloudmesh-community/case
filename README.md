@@ -64,6 +64,33 @@ case to them.
 
 ## Introduction :o: this is an experinec report or a result, but not an introduction
 
+
+
+In this we discuss the designs of an open-source laser cut case for
+Raspberry Pi computers, and includes the following:
+
+TBD
+
+
+
+The paper is structured as follows:
+
+* Requirements
+* Design
+* Alternatives
+* Manufacturing Facilities
+* Converting the Design for Laser Cutting
+* Product
+* Cloudmesh Pi Cluster in a Box
+* Future work
+* References
+
+
+
+:o: This next section needs to be replacedd as this is an experience
+report and not a paper:
+
+
 On the first day of the internship, the students talked to Gregor and
 were presented with a challenge to create their own design for a case
 for Raspberry Pi computers. Their first big hurdle in the design
@@ -280,8 +307,13 @@ The case si shown in Figures {@fig:p1}, {@fig:p2}, {@fig:p3}, {@fig:p4}, {@fig:p
 
 ### Cloudmesh Pi Cluster in a Box
 
+Old:
+
 This section describes the design of the box in which we package the cluster ready for shipping or didtribution to students.
 
+New Text:
+
+We will be creating a box to ship the clusters with the cases that will include everything needed to operate the clusters. The box will have pieces of foam to hold all the pieces in place, and will be shipped with everything in place.
 
 ## Future work
 
