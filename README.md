@@ -10,6 +10,10 @@ TODO: move designs form
 
 https://drive.google.com/drive/folders/1D8YjtOAh8FemuruPYPWuV4zYNxszW_wN
 
+
+Presentation:
+* <https://docs.google.com/presentation/d/1CSdbXzB3QMpkFJ3mvA80TYrvF13VuKiJK-m96QDGw_I>
+
 to this github, only keep final design here.
 
 :o: Lots of work needed
