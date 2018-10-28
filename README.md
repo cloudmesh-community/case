@@ -78,7 +78,7 @@ easy connectors were prototyped, before the whole case was designed.
 *Alternative but Integrative Design:* The activity allowed for
 alternative designs to be explored and each student member had the
 opportunity to follwo their own idea. Exchange of ideas in an open
-enviroenment was however encouraged and improvement suggestions need
+environment was however encouraged and improvement suggestions need
 to influence the design process. This is part of a stromg team work
 approach of the activities.
 
@@ -160,6 +160,7 @@ needed, but is recommended just in case.
 
 ## Manufacturing Facilities
 
+Our design is general enough so that it fits common laser cutters.
 We used two different cutters, both from Trotech. This includes the
 Speedy 360 and the Speedy 400. The Speedy 360 has a 813x508mm bed
 while the 400 has a 1000x610mm bed. Acrylic material on these laser
@@ -169,7 +170,6 @@ dimensions of the bed minus a quater inch. The laser cutter has an
 influence on our layout of the design. If you have laser cutters with
 a different bed size, please make appropriate modifications of the
 layout of the parts for the case.
-
 
 ### Material
 
@@ -207,17 +207,37 @@ to order the following while using extruded acrylic:
 
 * :o: provide concreate order information
 
+## SCAD Files
 
-## Converting the Design for Laser Cutting
+:o: is a scale missing in the scad files, such as a 1x1 cm and a
+1x1inch rectangle? All scad files must include this
+
+
+The design of the cases were conducted in SCAD.
+
+SCAD is :o:
+
+The important thing to note is that SCAD is 
+The cad files are shard in scad and svg format in the following location
+
+* <https://github.com/cloudmesh-community/case/tree/master/design/scad>
+
+:o: comment on the unit size that we assumin scad, i think our uinit
+is in mm?
+
 
 To produce a physical copy of our prototypes, we could not simply use
 the file in it's SCAD format. To ready the design for laser cutting,
-we first hav to export the file as a SVG. One this is done, the file
-can be edited in a graphic design program, such as Adobe Illustrator.
-Edits required to prepare the design include the removal of the
-interior fill color of the case components and adjustment of the edges
-for cutting. The laser cutter is preset to cut along red lines with a
-low thickness. For the prototypes, we used a 0.03 point thickness.
+we first have to export the file as a SVG. Once this is done, the file
+can be edited in a graphic design program, such as Adobe Illustrator
+[???]  or Inkscape [???]. Edits required to prepare the design include
+the removal of the interior fill color of the case components and
+adjustment of the edges for cutting. The laser cutter is preset to cut
+along red lines with a low thickness. For the prototypes, we used
+a 0.03 point thickness.
+
+:o: the feature could be a 1x1 cm sqaure that we add. This seems not
+yet to be addressed properly and needs to be improved in future designs.
 
 The design must also be correctly scaled to the right size. So far, we
 have achieved the correct scaling by finding a feature within the
@@ -233,7 +253,7 @@ done, the artboard must be scaled up as well.
 
 Once all editing is done, the design can be cut. This can be done by
 selecting the print option in the graphic design program and clicking
-on settings, in Illustrator, this can be found in the lower left corner
+on settings, in Adobe Illustrator, this can be found in the lower left corner
 of the main print window. If the laser cutter is not selected as the
 printer, it will need to be selected. The dimensions in the print
 settings will also need to be adjusted if they are smaller than the
@@ -243,15 +263,19 @@ The settings window can now be closed and the *print* button on the
 main print window can be selected. This will send the file to the
 laser cutter as a job.
 
-### Material Needed
-
-This section only contains the material needed for the case. The
-components and material for the electronic parts to build the cluster
-are located at
-
 ### Assembly Instructions
 
-:o:
+Once the case has been printed it needs to be assembled as
+follows. Our assembly instructions include one instructions to
+showcase the assembly of the case alone with pictures, and the other
+one with all electronic components included. Additional images are
+included in the Appendix.
+
+:o: TBD
+
+The final product looks as
+
+
 
 ## Community Outreach
 
@@ -259,6 +283,8 @@ As part of this activity, we exhibited the Cluster at a local maker
 fare called Makevention [???]. During that exhibit we got a lot of interest
 in the Pi cluster activities and the Cloud Computing course [???] taught at
 Indiana University.
+
+:o: image
 
 ## Future work
 
@@ -282,7 +308,7 @@ including an online instruction manual and an artful product label.
 
 * 19 inch rack for 40 nodes via bitscope, <https://www.festi.info/boxes.py/Rack19Box>
 
-We like to create a rack that containes 5 such clusters holding all
+We like to create a rack that contains 5 such clusters holding all
 together 200 Raspberry Pis.
 
 **40 node case:** We like to design a 40 node case in 19 inch rack
@@ -376,12 +402,6 @@ Exhibit at make vention, urls, and so forth, describe what it is
 
 
 ## Product Overview
-
-Here is the progression of our design, from the first prototype to our
-most recent model, as well as a link to the .scad and .svg files for
-the most recent case designs:
-
-* <https://github.com/cloudmesh-community/case/tree/master/design/openscadfiles>
 
 COMMENT: Not sure if I should put anything else in this section
 
