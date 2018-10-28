@@ -1,14 +1,15 @@
 # Raspbery PI 5 Node Cluster Case
 
-Gregor von Laszewski<sup>1</sup>, Eliyah Zayin<sup>3</sup>, Diego Ansaldo<sup>2</sup>
+Gregor von Laszewski<sup>1</sup>, Eliyah Zayin<sup>2</sup>, Diego Ansaldo<sup>2</sup>
 
 * <sup>1</sup>Indiana University, laszewski@gmail.com 
-* <sup>2</sup>The Academy of Science and Entrepreneurship, diegansaldo@gmail.com
-* <sup>3</sup>The Academy of Science and Entrepreneurship, eliyahzayin@gmail.com
+* <sup>2</sup>The Academy of Science and Entrepreneurship, diegansaldo@gmail.com, eliyahzayin@gmail.com
 
-TODO: move designs form 
+This document is published in github at
 
-https://drive.google.com/drive/folders/1D8YjtOAh8FemuruPYPWuV4zYNxszW_wN
+* PDF: <https://github.com/cloudmesh-community/case/blob/master/vonLaszewski-pi-cluster-case.pdf>
+* epub: <https://github.com/cloudmesh-community/case/blob/master/vonLaszewski-pi-cluster-case.epub?raw=true>
+
 
 ## Abstract
 
@@ -17,34 +18,30 @@ create a cluster created form up to five Raspberry Pis.  The cluster
 is designed for educational purposes as part of a Cloud
 Engineering class taught at Indiana University. The clusters are
 designed to be portable and allow the integration into a *shelf* where
-multiple such clusters can build a bigger cluster. Hence the cluster
-can be taken home to support work there, but when coming to class the
+multiple such clusters can build a bigger cluster. Hence an individual five node cluster can be taken home to support work there, but when coming to class the
 cluster can be plugged into the shelf to allow sharing of the Pi's
 among all class members.  The case is designed without need of screws
-and can easily be reproduced on a laser cutter without purchasing of
-additional components. All design files are openly distributed so it
-can easily be reproduced.
+and can be reproduced on a laser cutter without purchasing of
+additional components. All design files are openly distributed.
 
 ## Introduction
 
-Raspberry PI's are inexpensive and in contrast to a comput server that
-coast about $15K on can get a fully operational PI for $35.  Despite
+Raspberry PI's are inexpensive and in contrast to a compute server that
+cost about $15K, one can get a fully operational PI for less than $50.  Despite
 its low cost a number of PIs are an ideal platform for developing
-clusters. Naturally it does not have the same compute power as a n *
-$15K server, but to showcase some of the software services and tools
+prototype clusters to use for development of non memory intense cluster services. Naturally it does not have the same compute or memory power as a number of  $15K servers have, but to showcase some of the software services and tools
 needed to build more expensive clusters the PI platform is very
-useful. However a PI does not come with a case. One could purchase
-multiple cases, but such cases assume external power and networking
-which are not included. Our goal is to create a single case that can
+useful. However, such a cluster does not come with a case. One could purchase
+multiple cases, but such cases assume external power and networking. Our goal is to create a single case that can
 hold up to 5 Raspberry Pi's. Furthermore, We like to be able to
 connect multiple such clusters to a larger cluster that is housed in a
-shelf.
+shelf or rack.
 
 We present here our current solution for such a case and also give
-opportunities for further improvements to this effort Which can be
-conducted as part of educational activities. Alternatives such as
+opportunities for further improvements to this effort which can be
+conducted as part of educational activities including highschool, undergraduate, and graduate students that are interested in such activities. Alternatives such as
 virtualizing a cluster entirely in a cloud or on a users local
-computer are discussed in ???.
+computer are discussed in [@las-cloud-eng] and [@las-cloud-clusters-pi].
 
 ## Requirements
 
@@ -69,7 +66,7 @@ create a fairly complex design or a design inspired by art and
 architecture. However, in our case we wanted to focus on a simple
 design that could be integrated in a shelf. In future we hope that the
 cases can be modified and for example get artful additions to for
-example support efforts such as ??? (sentinel)
+example support efforts such as documented in [@Beesley13architecture]. 
 
 *Itterative Design:* The activity was scheduled around the principle
 of an itterative design process in which first principles such as
@@ -91,7 +88,7 @@ students to reuse.
 
 *Advanced Documentation Requirements:* The activity allows also for
 participation in advanced documentation requirements such as this
-document that is also incfluenced by ??? and ???. As part of this
+document that is also incfluenced by [@las-cloud-eng] and [@las-cloud-clusters-pi]. As part of this
 requirement students have the ability to participate in writing a
 paper instead of an experience report. A paper focusses on how to
 write an academic paper, while an experience report focusses more on
@@ -210,34 +207,31 @@ to order the following while using extruded acrylic:
 ## SCAD Files
 
 :o: is a scale missing in the scad files, such as a 1x1 cm and a
-1x1inch rectangle? All scad files must include this
+1x1inch rectangle? All scad files must include this. Should actually be done by Diego or Eliyah, if they do not have time Gregor will complete this part of the internship.
 
 
 The design of the cases were conducted in SCAD.
 
-SCAD is :o:
+SCAD is 
+
+:o: Gregor will complete
 
 The important thing to note is that SCAD is 
 The cad files are shard in scad and svg format in the following location
 
 * <https://github.com/cloudmesh-community/case/tree/master/design/scad>
 
-:o: comment on the unit size that we assumin scad, i think our uinit
-is in mm?
-
-
 To produce a physical copy of our prototypes, we could not simply use
 the file in it's SCAD format. To ready the design for laser cutting,
 we first have to export the file as a SVG. Once this is done, the file
 can be edited in a graphic design program, such as Adobe Illustrator
-[???]  or Inkscape [???]. Edits required to prepare the design include
+[@www-adobe-illustrator]  or Inkscape [@www-inkscape]. Edits required to prepare the design include
 the removal of the interior fill color of the case components and
 adjustment of the edges for cutting. The laser cutter is preset to cut
 along red lines with a low thickness. For the prototypes, we used
 a 0.03 point thickness.
 
-:o: the feature could be a 1x1 cm sqaure that we add. This seems not
-yet to be addressed properly and needs to be improved in future designs.
+:o: Opportunity for improvements: We like to improve the description, possibly with a video do showcase how to do this. Once the scale has been introduced this section is to be rewritten.
 
 The design must also be correctly scaled to the right size. So far, we
 have achieved the correct scaling by finding a feature within the
@@ -274,8 +268,9 @@ included in the Appendix.
 :o: TBD include assembly instruction images (use nice background,
 e.g. white or black)
 
-The final case without components is shown in +@fig:trans. 
+### Final Product
 
+The final case without components is shown in +@fig:trans. 
 
 ![Case](images/UNADJUSTEDNONRAW_thumb_5d0.jpg){#fig:trans with=50%}
 
@@ -299,7 +294,7 @@ Indiana University. An event picture is shown in +@fig:makevention.
 
 ## Future work
 
-Future Design Activities include:
+Future Design Activities include the following activities. We are looking for students that would like to take on these tasks and contribute to this document.
 
 **Cluster Shelf or Rack:** To accomodate larger clusters in the class
 setting a shelf is proposed in which we *place* the miniclusters while
@@ -332,10 +327,12 @@ boxes based on any dimension provided by the user.
 * <https://www.festi.info/boxes.py/>
 
 
-## Refernces
+## Links
+
+:o: Gregor needs to create bitex entries
 
 * Other cases are at <https://github.com/cloudmesh-community/book/blob/master/chapters/pi/case.md>
 * Website for OpenSCAD http://www.openscad.org/index.html
 * Presentation: <https://docs.google.com/presentation/d/1CSdbXzB3QMpkFJ3mvA80TYrvF13VuKiJK-m96QDGw_I>
 * Deprecated Draft Document <https://docs.google.com/document/d/1TGBAY631eGSpKAIcp0iVtK5Ns_-AA-n7dX7MmIVgFvw/edit>
-* Images are included in the Appendix :o: url
+* Images are included in the the file 
