@@ -12,14 +12,18 @@ RESOURCE=--resource-path=.
 
 all: epub pdf
 
+
+date:
+	bin/date.py > version.md
+
 pdf:
 	@echo "###############################################################################"
 	@echo "# create" $(FILENAME).pdf
 	@echo "###############################################################################"
-	pandoc --filter pandoc-fignos  title.md README.md   -o $(FILENAME).pdf --from markdown --template "template/eisvogel.latex" --toc -V "numbersections=true" --listings
+	pandoc --filter pandoc-fignos  title.md version.md README.md   -o $(FILENAME).pdf --from markdown --template "template/eisvogel.latex" --toc -V "numbersections=true" --listings
 
-epub:
+epub: date
 	@echo "###############################################################################"
 	@echo "# create" $(FILENAME).epub
 	@echo "###############################################################################"
-	pandoc $(RESOURCE) $(MARKDOWN-OPTIONS)  $(FORMAT) $(FONTS) $(BIB)  $(CSL) $(CSS) -o $(FILENAME).epub metadata.txt title.md README.md
+	pandoc $(RESOURCE) $(MARKDOWN-OPTIONS)  $(FORMAT) $(FONTS) $(BIB)  $(CSL) $(CSS) -o $(FILENAME).epub metadata.txt title.md version.md README.md
