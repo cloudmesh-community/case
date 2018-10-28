@@ -220,15 +220,16 @@ for cutting. The laser cutter is preset to cut along red lines with a
 low thickness. For the prototypes, we used a 0.03 point thickness.
 
 The design must also be correctly scaled to the right size. So far, we
-have achieved the correct scaling by finding a feature within the design
-and find the correct scale factor by measuring it. We are currently
-considering the possibility of using the size of the rectangle the case
-fits into; this should speed up the process, since the dimensions can
-be viewed in Illustrator by clicking on the artboard tab on the right
-vertical tool bar and selecting the artboard settings button. The correct
-scale factor can be calculated by dividing the desired length by the length
-of the artboard. Then select all objects and scale them by the calculated factor.
-Once this is done, the artboard must be scaled up as well.
+have achieved the correct scaling by finding a feature within the
+design and find the correct scale factor by measuring it. We are
+currently considering the possibility of using the size of the
+rectangle the case fits into; this should speed up the process, since
+the dimensions can be viewed in Illustrator by clicking on the
+artboard tab on the right vertical tool bar and selecting the artboard
+settings button. The correct scale factor can be calculated by
+dividing the desired length by the length of the artboard. Then select
+all objects and scale them by the calculated factor.  Once this is
+done, the artboard must be scaled up as well.
 
 Once all editing is done, the design can be cut. This can be done by
 selecting the print option in the graphic design program and clicking
@@ -241,6 +242,66 @@ preferences, which is located directly beneath the printer selection.
 The settings window can now be closed and the *print* button on the
 main print window can be selected. This will send the file to the
 laser cutter as a job.
+
+### Material Needed
+
+This section only contains the material needed for the case. The
+components and material for the electronic parts to build the cluster
+are located at
+
+### Assembly Instructions
+
+:o:
+
+## Community Outreach
+
+As part of this activity, we exhibited the Cluster at a local maker
+fare called Makevention [???]. During that exhibit we got a lot of interest
+in the Pi cluster activities and the Cloud Computing course [???] taught at
+Indiana University.
+
+## Future work
+
+Future Design Activities include:
+
+**Cluster Shelf or Rack:** To accomodate larger clusters in the class
+setting a shelf is proposed in which we *place* the miniclusters while
+attaching it through a power distribution bar and a large network
+switch to integrate the individual clusters into the larger
+cluster. Furthermore we want to create a product in a box called
+*Cloudmesh Pi Cluster* that we can give to students so they can
+assemble such a cluster themself, or order the parts directly from us
+and we ship the parts and the cluster case to them.
+
+**Product Box:** It is useful to be able to distribute such a cluster
+as a Kit, either distributed by us or others. For this we need to
+designa shipping box that includes all parts of a five node cluster
+including an online instruction manual and an artful product label.
+
+**Bitscope Rack:** We have also access to a 19 inch rack based on:
+
+* 19 inch rack for 40 nodes via bitscope, <https://www.festi.info/boxes.py/Rack19Box>
+
+We like to create a rack that containes 5 such clusters holding all
+together 200 Raspberry Pis.
+
+**40 node case:** We like to design a 40 node case in 19 inch rack
+format from laser cut material
+
+**Dense joints**: we could design a future case with tighter joints in
+mind such as projected by the following program that creates basic
+boxes based on any dimension provided by the user.
+
+* <https://www.festi.info/boxes.py/>
+
+
+## Refernces
+
+* Other cases are at <https://github.com/cloudmesh-community/book/blob/master/chapters/pi/case.md>
+* Website for OpenSCAD http://www.openscad.org/index.html
+* Presentation: <https://docs.google.com/presentation/d/1CSdbXzB3QMpkFJ3mvA80TYrvF13VuKiJK-m96QDGw_I>
+* Deprecated Draft Document <https://docs.google.com/document/d/1TGBAY631eGSpKAIcp0iVtK5Ns_-AA-n7dX7MmIVgFvw/edit>
+
 
 ## Images
 
@@ -335,64 +396,4 @@ The case si shown in Figures {@fig:p1}, {@fig:p2}, {@fig:p3}, {@fig:p4}, {@fig:p
 ![Prototype 4](images/prototype4.1.jpg){#fig:p4}
 
 ![Prototype 4](images/prototype4.2.jpg){#fig:p5}
-
-### Material Needed
-
-This section only contains the material needed for the case. The
-components and material for the electronic parts to build the cluster
-are located at:
-
-### Assembly Instructions
-
-:o:
-
-## Community Outreach
-
-As part of this activity, we exhibited the Cluster at a local maker
-fare called Makevention [???]. During that exhibit we got a lot of interest
-in the Pi cluster activities and the Cloud Computing course [???] taught at
-Indiana University.
-
-## Future work
-
-Future Design Activities include:
-
-**Cluster Shelf or Rack:** To accomodate larger clusters in the class
-setting a shelf is proposed in which we *place* the miniclusters while
-attaching it through a power distribution bar and a large network
-switch to integrate the individual clusters into the larger
-cluster. Furthermore we want to create a product in a box called
-*Cloudmesh Pi Cluster* that we can give to students so they can
-assemble such a cluster themself, or order the parts directly from us
-and we ship the parts and the cluster case to them.
-
-**Product Box:** It is useful to be able to distribute such a cluster
-as a Kit, either distributed by us or others. For this we need to
-designa shipping box that includes all parts of a five node cluster
-including an online instruction manual and an artful product label.
-
-**Bitscope Rack:** We have also access to a 19 inch rack based on:
-
-* 19 inch rack for 40 nodes via bitscope, <https://www.festi.info/boxes.py/Rack19Box>
-
-We like to create a rack that containes 5 such clusters holding all
-together 200 Raspberry Pis.
-
-**40 node case:** We like to design a 40 node case in 19 inch rack
-format from laser cut material
-
-**Dense joints**: we could design a future case with tighter joints in
-mind such as projected by the following program that creates basic
-boxes based on any dimension provided by the user.
-
-* <https://www.festi.info/boxes.py/>
-
-
-## Refernces
-
-* Other cases are at <https://github.com/cloudmesh-community/book/blob/master/chapters/pi/case.md>
-* Website for OpenSCAD http://www.openscad.org/index.html
-* Presentation: <https://docs.google.com/presentation/d/1CSdbXzB3QMpkFJ3mvA80TYrvF13VuKiJK-m96QDGw_I>
-* Deprecated Draft Document <https://docs.google.com/document/d/1TGBAY631eGSpKAIcp0iVtK5Ns_-AA-n7dX7MmIVgFvw/edit>
-
 
