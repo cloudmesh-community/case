@@ -1,6 +1,6 @@
 # Raspbery PI 5 Node Cluster Case
 
-Eliyah Zayin<sup>3</sup>, Diego Ansaldo<sup>2</sup>, Gregor von Laszewski<sup>1</sup>
+Gregor von Laszewski<sup>1</sup>, Eliyah Zayin<sup>3</sup>, Diego Ansaldo<sup>2</sup>
 
 * <sup>1</sup>Indiana University, laszewski@gmail.com 
 * <sup>2</sup>The Academy of Science and Entrepreneurship, diegansaldo@gmail.com
@@ -10,98 +10,155 @@ TODO: move designs form
 
 https://drive.google.com/drive/folders/1D8YjtOAh8FemuruPYPWuV4zYNxszW_wN
 
-
-Presentation:
-* <https://docs.google.com/presentation/d/1CSdbXzB3QMpkFJ3mvA80TYrvF13VuKiJK-m96QDGw_I>
-
-Draft Document:
-
-* https://docs.google.com/document/d/1TGBAY631eGSpKAIcp0iVtK5Ns_-AA-n7dX7MmIVgFvw/edit
-
-to this github, only keep final design here.
-
-:o: Lots of work needed
-
-- [ ] todo
-
-
-
 ## Abstract
 
-New text:
+We present the design of a Raspberry Pi cluster case that allows to
+create a cluster created form up to five Raspberry Pis.  The cluster
+is designed for educational purposes as part of a Cloud
+Engineering class taught at Indiana University. The clusters are
+designed to be portable and allow the integration into a *shelf* where
+multiple such clusters can build a bigger cluster. Hence the cluster
+can be taken home to support work there, but when coming to class the
+cluster can be plugged into the shelf to allow sharing of the Pi's
+among all class members.  The case is designed without need of screws
+and can easily be reproduced on a laser cutter without purchasing of
+additional components. All design files are openly distributed so it
+can easily be reproduced.
 
-We were tasked with making a laser cut case that could hold a five node Raspberry Pi cluster and all the necessary parts to run it. We decided to use Raspberry Pis because they are a relatively inexpensive way to have a highly customizable computer that can do fairly complicated tasks. The clusters are going to be used mainly for educational purposes, as they are already being used in courses at IU, and will hopefully be used at multiple other schools as well. Currently, students each get a cluster that they can take to and from class to use in different projects and assignments. The cases were designed to keep the clusters safe, so that the students could take them around without the Pis breaking. In general, we wanted to make the case as simple and easy to build as possible, while still making sure it was completely structurally sound. We wanted to keep extra parts like screws and glue to be kept to a minimum, and our final design actually holds itself together without either. We also wanted to make the case very modular, so that it could be disassembled fairly easily if any parts broke or needed to be used for something else.
+## Introduction
 
-Old text:
+Raspberry PI's are inexpensive and in contrast to a comput server that
+coast about $15K on can get a fully operational PI for $35.  Despite
+its low cost a number of PIs are an ideal platform for developing
+clusters. Naturally it does not have the same compute power as a n *
+$15K server, but to showcase some of the software services and tools
+needed to build more expensive clusters the PI platform is very
+useful. However a PI does not come with a case. One could purchase
+multiple cases, but such cases assume external power and networking
+which are not included. Our goal is to create a single case that can
+hold up to 5 Raspberry Pi's. Furthermore, We like to be able to
+connect multiple such clusters to a larger cluster that is housed in a
+shelf.
 
-Why doe we need PI clusters ....
+We present here our current solution for such a case and also give
+opportunities for further improvements to this effort Which can be
+conducted as part of educational activities. Alternatives such as
+virtualizing a cluster entirely in a cloud or on a users local
+computer are discussed in ???.
 
-* iu course
+## Requirements
 
-Why do we need a case ...
+Next we list a number of requirements for this efforst. We distinguish
+educational requirements and technical requirements.
 
-* protect, students take cluster home, students bring cluster to class
+### Educational Requirements
 
-How do we anticipate the case is used ...
+We list a number of educational requirements that we addressed through
+this effort
 
-* want to have access to the components for reuse
+*Focus on Programming:* Typically students will use a graphical user
+interface based tool to design such a case. However, from the
+beginning on we wanted to avoid such a GUI based method and expose
+students to programming. This is especially desirable in case students
+need to not only be introduced in GUI design processes, but also
+programming as this will lead to a more parameterized design as well
+as exposing students to concepts of programming.
 
-Based on these requiremnts we designing a Raspbery PI Case for five
-PI's qout of laser cut sheets with the goals of keeping the design as
-simple as possible, using few parts as do minimize production costs,
+*Focus on Simplicity of the Design:* Certainly it is possible to
+create a fairly complex design or a design inspired by art and
+architecture. However, in our case we wanted to focus on a simple
+design that could be integrated in a shelf. In future we hope that the
+cases can be modified and for example get artful additions to for
+example support efforts such as ??? (sentinel)
+
+*Itterative Design:* The activity was scheduled around the principle
+of an itterative design process in which first principles such as
+easy connectors were prototyped, before the whole case was designed.
+
+*Alternative but Integrative Design:* The activity allowed for
+alternative designs to be explored and each student member had the
+opportunity to follwo their own idea. Exchange of ideas in an open
+enviroenment was however encouraged and improvement suggestions need
+to influence the design process. This is part of a stromg team work
+approach of the activities.
+
+*Documenation:* The activity has a minimal documentation requirement
+in which the design is documented so it can be reproduced and
+sufficient assembly instructions are provided. As the Laser cutting
+equipment use if very new, we want to make sure that enough
+documentation is identified and added so that it can be used for other
+students to reuse. 
+
+*Advanced Documentation Requirements:* The activity allows also for
+participation in advanced documentation requirements such as this
+document that is also incfluenced by ??? and ???. As part of this
+requirement students have the ability to participate in writing a
+paper instead of an experience report. A paper focusses on how to
+write an academic paper, while an experience report focusses more on
+what a student has done. We identified that the later ofetn leads to
+information that although valuable for the student to recognize, does
+not communicate the effort in a short an effective manner to the
+reader while focussing on the deliverables.
+
+### Technical Requirements
+
+The following technical requirements exist
+
+* Develop a case than can hold up to five PI's of Raspberry PI 3B or PI
+  3B+, a network switch that can in addition be plugged into a laptop,
+  and a power supply to power the Pis.
+
+* No screws or glue needs to be used to assemble the case
+
+* Laser cut material is to be used for the case
+
+* The design document is openly redistributable
+
+* The design has been fully tested and an assembly has been conducted
+
+* Assembly instructions are provided
+
+* A materials ordering list is provided to print either 1 or 10 cases.
+
+* The cases be integratabtle intoa shelf that can host many of the
+  clusters with 10 being the minimal.
+
+* Prepare integration of a cluster with 200+ Raspberry PI's
+
+* Compare the design to that of other cluster cases for PI's
+
+* Have the cases be stable enough so they can be carried in a bag
+  between home and class without breaking them.
+
+## Design
+
+Based on these requirements we designing a Raspberry PI Case for five
+PI's out of laser cut sheets with the goals of keeping the design as
+simple as possible, using few parts as to minimize production costs,
 allowing for easy assembly without screws or glue, while making it
-structurally sound. Furthermore we allow reproducability throup open
-sourcing the design.
+structurally sound. Furthermore, we allow reproducibility through an
+open source design.
 
-To accomodate larger clusters in the class setting a Shelf is proposed
+
+## Future Design Activities
+
+To accomodate larger clusters in the class setting a shelf is proposed
 in which we *place* the miniclusters while attaching it through a
-power distribution bar and a large network switch to integarte the
+power distribution bar and a large network switch to integrate the
 individual clusters into the larger cluster. Furthermore we want to
 create a product in a box called *Cloudmesh Pi Cluster* that we can
 give to students so they can assemble such a cluster themself, or
 order the parts directly from us and we ship the parts and the cluster
 case to them.
 
-## Introduction :o: this is an experinec report or a result, but not an introduction
+## Introduction
 
-
-
-In this we discuss the designs of an open-source laser cut case for
-Raspberry Pi computers, and includes the following:
 
 TBD
 
 
 
-The paper is structured as follows:
-
-* Requirements
-* Design
-* Alternatives
-* Manufacturing Facilities
-* Converting the Design for Laser Cutting
-* Product
-* Cloudmesh Pi Cluster in a Box
-* Future work
-* References
-
-
-
-:o: This next section needs to be replacedd as this is an experience
-report and not a paper:
-
-
-On the first day of the internship, the students talked to Gregor and
-were presented with a challenge to create their own design for a case
-for Raspberry Pi computers. Their first big hurdle in the design
-process was desiding on an initial design and learning the chosen
-modeling program well enough to build it. They brainstormed a fairly
-simple first design, then decided to just start modeling. OpenSCAD
-took a little time to get used to, because of the programming only
-orientation, but the students learned enough to build the first
-prototype. It was very simple compared to the most current versions
-now, but all things considered was very impressive, and it had many of
-the elements still central to the current design. The students had two
+The students had two
 major innovations present in their first prototypes, in one of them,
 the peg and slot system still used today, and the other, the smaller
 interlocking pieces used to distribute strain in the case. The first
@@ -339,5 +396,7 @@ refernces.bib in bibtex format.
 
 * Other cases are at <https://github.com/cloudmesh-community/book/blob/master/chapters/pi/case.md>
 * Website for OpenSCAD http://www.openscad.org/index.html
+* Presentation: <https://docs.google.com/presentation/d/1CSdbXzB3QMpkFJ3mvA80TYrvF13VuKiJK-m96QDGw_I>
+* Deprecated Draft Document <https://docs.google.com/document/d/1TGBAY631eGSpKAIcp0iVtK5Ns_-AA-n7dX7MmIVgFvw/edit>
 
 
