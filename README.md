@@ -274,10 +274,19 @@ included in the Appendix.
 :o: TBD include assembly instruction images (use nice background,
 e.g. white or black)
 
+The final case without components is shown in +@fig:trans. 
+
+
+![Case](images/UNADJUSTEDNONRAW_thumb_5d0.jpg){#fig:trans with=50%}
+
 The final product looks as shown in +@fig:final. Cables are not added
 in this image.
 
 ![Case](images/UNADJUSTEDNONRAW_thumb_7b7.jpg){#fig:final with=50%}
+
+If cables are added the case looks as depicted in +@fig:cable.
+
+![Prototype 3](images/prototype3.jpg){#fig:cable}
 
 ## Community Outreach
 
