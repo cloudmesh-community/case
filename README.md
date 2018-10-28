@@ -14,6 +14,10 @@ https://drive.google.com/drive/folders/1D8YjtOAh8FemuruPYPWuV4zYNxszW_wN
 Presentation:
 * <https://docs.google.com/presentation/d/1CSdbXzB3QMpkFJ3mvA80TYrvF13VuKiJK-m96QDGw_I>
 
+Draft Document:
+
+* https://docs.google.com/document/d/1TGBAY631eGSpKAIcp0iVtK5Ns_-AA-n7dX7MmIVgFvw/edit
+
 to this github, only keep final design here.
 
 :o: Lots of work needed
