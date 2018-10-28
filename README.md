@@ -271,20 +271,22 @@ showcase the assembly of the case alone with pictures, and the other
 one with all electronic components included. Additional images are
 included in the Appendix.
 
-:o: TBD
+:o: TBD include assembly instruction images (use nice background,
+e.g. white or black)
 
-The final product looks as
+The final product looks as shown in +@fig:final. Cables are not added
+in this image.
 
-
+![Case](images/UNADJUSTEDNONRAW_thumb_7b7.jpg){#fig:final with=50%}
 
 ## Community Outreach
 
 As part of this activity, we exhibited the Cluster at a local maker
 fare called Makevention [???]. During that exhibit we got a lot of interest
 in the Pi cluster activities and the Cloud Computing course [???] taught at
-Indiana University.
+Indiana University. An event picture is shown in +@fig:makevention.
 
-:o: image
+![Case](images/UNADJUSTEDNONRAW_thumb_7cf.jpg){#fig:makevention with=50%}
 
 ## Future work
 
@@ -354,7 +356,6 @@ The case is shown in Figures
 
 test +@fig:case7d0.
 
-create proper sentences with refs for images
 
 ### Transparent Case
 
@@ -396,7 +397,6 @@ Exhibit at make vention, urls, and so forth, describe what it is
 
 ![Case](images/UNADJUSTEDNONRAW_thumb_7ce.jpg){#fig:case7ce with=50%}
 
-![Case](images/UNADJUSTEDNONRAW_thumb_7cf.jpg){#fig:case7cf with=50%}
 
 ![Case](images/UNADJUSTEDNONRAW_thumb_7d0.jpg){#fig:case7d0 with=50%}
 
