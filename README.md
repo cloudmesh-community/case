@@ -28,6 +28,12 @@ to this github, only keep final design here.
 
 ## Abstract
 
+New text:
+
+We were tasked with making a laser cut case that could hold a five node Raspberry Pi cluster and all the necessary parts to run it. We decided to use Raspberry Pis because they are a relatively inexpensive way to have a highly customizable computer that can do fairly complicated tasks. The clusters are going to be used mainly for educational purposes, as they are already being used in courses at IU, and will hopefully be used at multiple other schools as well. Currently, students each get a cluster that they can take to and from class to use in different projects and assignments. The cases were designed to keep the clusters safe, so that the students could take them around without the Pis breaking. In general, we wanted to make the case as simple and easy to build as possible, while still making sure it was completely structurally sound. We wanted to keep extra parts like screws and glue to be kept to a minimum, and our final design actually holds itself together without either. We also wanted to make the case very modular, so that it could be disassembled fairly easily if any parts broke or needed to be used for something else.
+
+Old text:
+
 Why doe we need PI clusters ....
 
 * iu course
