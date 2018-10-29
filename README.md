@@ -15,37 +15,43 @@ This document is published in github at
 
 We present the design of a Raspberry Pi cluster case that allows to
 create a cluster created form up to five Raspberry Pis.  The cluster
-is designed for educational purposes as part of a Cloud
-Engineering class taught at Indiana University. The clusters are
-designed to be portable and allow the integration into a *shelf* where
-multiple such clusters can build a bigger cluster. Hence an individual five node cluster can be taken home to support work there, but when coming to class the
-cluster can be plugged into the shelf to allow sharing of the Pi's
-among all class members.  The case is designed without need of screws
-and can be reproduced on a laser cutter without purchasing of
-additional components. All design files are openly distributed.
+is designed for educational purposes as part of a Cloud Engineering
+class taught at Indiana University. The clusters are designed to be
+portable and allow the integration into a *shelf* where multiple such
+clusters can build a bigger cluster. Hence an individual five node
+cluster can be taken home to support work there, but when coming to
+class the cluster can be plugged into the shelf to allow sharing of
+the Pi's among all class members.  The case is designed without need
+of screws and can be reproduced on a laser cutter without purchasing
+of additional components. All design files are openly distributed.
 
 ## Introduction
 
-Raspberry PI's are inexpensive and in contrast to a compute server that
-cost about $15K, one can get a fully operational PI for less than $50.  Despite
-its low cost a number of PIs are an ideal platform for developing
-prototype clusters to use for development of non memory intense cluster services. Naturally it does not have the same compute or memory power as a number of  $15K servers have, but to showcase some of the software services and tools
-needed to build more expensive clusters the PI platform is very
-useful. However, such a cluster does not come with a case. One could purchase
-multiple cases, but such cases assume external power and networking. Our goal is to create a single case that can
-hold up to 5 Raspberry Pi's. Furthermore, We like to be able to
-connect multiple such clusters to a larger cluster that is housed in a
-shelf or rack.
+Raspberry PI's are inexpensive and in contrast to a compute server
+that cost about $15K, one can get a fully operational PI for less than
+$50.  Despite its low cost a number of PIs are an ideal platform for
+developing prototype clusters to use for development of non memory
+intense cluster services. Naturally it does not have the same compute
+or memory power as a number of $15K servers have, but to showcase some
+of the software services and tools needed to build more expensive
+clusters the PI platform is very useful. However, such a cluster does
+not come with a case. One could purchase multiple cases, but such
+cases assume external power and networking. Our goal is to create a
+single case that can hold up to 5 Raspberry Pi's. Furthermore, We like
+to be able to connect multiple such clusters to a larger cluster that
+is housed in a shelf or rack.
 
 We present here our current solution for such a case and also give
 opportunities for further improvements to this effort which can be
-conducted as part of educational activities including highschool, undergraduate, and graduate students that are interested in such activities. Alternatives such as
-virtualizing a cluster entirely in a cloud or on a users local
-computer are discussed in [@las-cloud-eng] and [@las-cloud-clusters-pi].
+conducted as part of educational activities including highschool,
+undergraduate, and graduate students that are interested in such
+activities. Alternatives such as virtualizing a cluster entirely in a
+cloud or on a users local computer are discussed in [@las-cloud-eng]
+and [@las-cloud-clusters-pi].
 
 ## Requirements
 
-Next we list a number of requirements for this efforst. We distinguish
+Next we list a number of requirements for this effort. We distinguish
 educational requirements and technical requirements.
 
 ### Educational Requirements
@@ -68,18 +74,18 @@ design that could be integrated in a shelf. In future we hope that the
 cases can be modified and for example get artful additions to for
 example support efforts such as documented in [@Beesley13architecture]. 
 
-*Itterative Design:* The activity was scheduled around the principle
-of an itterative design process in which first principles such as
+*Iterative Design:* The activity was scheduled around the principle
+of an iterative design process in which first principles such as
 easy connectors were prototyped, before the whole case was designed.
 
 *Alternative but Integrative Design:* The activity allowed for
 alternative designs to be explored and each student member had the
-opportunity to follwo their own idea. Exchange of ideas in an open
+opportunity to follow their own idea. Exchange of ideas in an open
 environment was however encouraged and improvement suggestions need
 to influence the design process. This is part of a stromg team work
 approach of the activities.
 
-*Documenation:* The activity has a minimal documentation requirement
+*Documentation:* The activity has a minimal documentation requirement
 in which the design is documented so it can be reproduced and
 sufficient assembly instructions are provided. As the Laser cutting
 equipment use if very new, we want to make sure that enough
@@ -88,14 +94,15 @@ students to reuse.
 
 *Advanced Documentation Requirements:* The activity allows also for
 participation in advanced documentation requirements such as this
-document that is also incfluenced by [@las-cloud-eng] and [@las-cloud-clusters-pi]. As part of this
-requirement students have the ability to participate in writing a
-paper instead of an experience report. A paper focusses on how to
-write an academic paper, while an experience report focusses more on
-what a student has done. We identified that the later ofetn leads to
-information that although valuable for the student to recognize, does
-not communicate the effort in a short an effective manner to the
-reader while focussing on the deliverables.
+document that is also influenced by [@las-cloud-eng] and
+[@las-cloud-clusters-pi]. As part of this requirement students have
+the ability to participate in writing a paper instead of an experience
+report. A paper focusses on how to write an academic paper, while an
+experience report focusses more on what a student has done. We
+identified that the later often leads to information that although
+valuable for the student to recognize, does not communicate the effort
+in a short an effective manner to the reader while focussing on the
+deliverables.
 
 ### Technical Requirements
 
@@ -141,7 +148,7 @@ requirement of not using screws and glue:
 
 1. a peg and slot system to easily lock in perpendicularly
 2. an interlock system based on cutouts and rectangular wholes so the
-peaces fit nicely.
+   peaces fit nicely.
 
 Du to the iterative design process including the programatic design plans,
 build, test, and analyze phase and its iteration The final design was
@@ -157,8 +164,8 @@ needed, but is recommended just in case.
 
 ## Manufacturing Facilities
 
-Our design is general enough so that it fits common laser cutters.
-We used two different cutters, both from Trotech. This includes the
+Our design is general enough so that it fits common laser cutters.  We
+used two different cutters, both from Trotech. This includes the
 Speedy 360 and the Speedy 400. The Speedy 360 has a 813x508mm bed
 while the 400 has a 1000x610mm bed. Acrylic material on these laser
 cutters can be cut up to 6mm. To ensure that the material will fit
@@ -174,7 +181,7 @@ The laser cut parts utilize 3mm cut-to-size acrylic. Although thicker
 material would be more stable, it is not as suitable as its weight is
 more and it ias also more expensive. Thus a decision has been made to
 stick with the 3mm as it is lighter during the transport. It can be
-purchased for ex ample from 
+purchased for ex ample from
 
 * <https://www.tapplastics.com/product/plastics/cut_to_size_plastic>.
 
@@ -187,7 +194,7 @@ dimensions:
 
 or in cm runded up to the next cm
 
-& 54cm x 39 cm
+* 54cm x 39 cm
 
 The cost for a single cluster would be based on material choices:
 
@@ -202,36 +209,56 @@ encasement for the power and network equipment.
 To build 10 cases that fit on the larger Trotech laser cutter we need
 to order the following while using extruded acrylic:
 
-* :o: provide concreate order information
+---
+
+* :o: Student will provide concreate order information
+
+---
 
 ## SCAD Files
 
-:o: is a scale missing in the scad files, such as a 1x1 cm and a
-1x1inch rectangle? All scad files must include this. Should actually be done by Diego or Eliyah, if they do not have time Gregor will complete this part of the internship.
 
 
 The design of the cases were conducted in SCAD.
 
-SCAD is 
+SCAD [@www-scad] is a program that can creating 3D CAD models. It is
+freely available for the common operating systems. The special aspect
+about SCAD is that it is based on a programming language to develop
+the model instead of a Graphics interface. This allows a programatic
+creation of the model and modification through its programming
+language rather than a drag and dorp interface.
 
-:o: Gregor will complete
-
-The important thing to note is that SCAD is 
-The cad files are shard in scad and svg format in the following location
+The cad files for the case are shard in scad and svg format in the following location
 
 * <https://github.com/cloudmesh-community/case/tree/master/design/scad>
+
+We have two designs. One with a locking mechanism the other without.
 
 To produce a physical copy of our prototypes, we could not simply use
 the file in it's SCAD format. To ready the design for laser cutting,
 we first have to export the file as a SVG. Once this is done, the file
 can be edited in a graphic design program, such as Adobe Illustrator
-[@www-adobe-illustrator]  or Inkscape [@www-inkscape]. Edits required to prepare the design include
-the removal of the interior fill color of the case components and
-adjustment of the edges for cutting. The laser cutter is preset to cut
-along red lines with a low thickness. For the prototypes, we used
-a 0.03 point thickness.
+[@www-adobe-illustrator] or Inkscape [@www-inkscape]. Edits required
+to prepare the design include the removal of the interior fill color
+of the case components and adjustment of the edges for cutting. The
+laser cutter is preset to cut along red lines with a low
+thickness. For the prototypes, we used a 0.03 point thickness.
 
-:o: Opportunity for improvements: We like to improve the description, possibly with a video do showcase how to do this. Once the scale has been introduced this section is to be rewritten.
+---
+
+:o: At this time the description of how to identify a reference point
+for scaling is not yet complete. THis can be completed in one of two
+ways.
+
+1. Keep the scad files as tehy are, but make sure that a concrete
+   description be added which feature can be used for scaling and how.
+
+2. add a 1x1 cm or 1x1 inch square to the design which serves as
+   reference point.
+
+To avoid complex instructions the solution 2 seems overall easier.
+
+---
 
 The design must also be correctly scaled to the right size. So far, we
 have achieved the correct scaling by finding a feature within the
@@ -286,15 +313,18 @@ If cables are added the case looks as depicted in +@fig:cable.
 ## Community Outreach
 
 As part of this activity, we exhibited the Cluster at a local maker
-fare called Makevention [???]. During that exhibit we got a lot of interest
-in the Pi cluster activities and the Cloud Computing course [???] taught at
-Indiana University. An event picture is shown in +@fig:makevention.
+fare called Makevention [@www-makevention]. During that exhibit we got
+a lot of interest in the Pi cluster activities and the Cloud Computing
+course [@las-cloud-eng] taught at Indiana University. An event picture
+is shown in +@fig:makevention.
 
 ![Case](images/UNADJUSTEDNONRAW_thumb_7cf.jpg){#fig:makevention with=50%}
 
 ## Future work
 
-Future Design Activities include the following activities. We are looking for students that would like to take on these tasks and contribute to this document.
+Future Design Activities include the following activities. We are
+looking for students that would like to take on these tasks and
+contribute to this document.
 
 **Cluster Shelf or Rack:** To accomodate larger clusters in the class
 setting a shelf is proposed in which we *place* the miniclusters while
@@ -329,10 +359,8 @@ boxes based on any dimension provided by the user.
 
 ## Links
 
-:o: Gregor needs to create bitex entries
-
 * Other cases are at <https://github.com/cloudmesh-community/book/blob/master/chapters/pi/case.md>
 * Website for OpenSCAD http://www.openscad.org/index.html
 * Presentation: <https://docs.google.com/presentation/d/1CSdbXzB3QMpkFJ3mvA80TYrvF13VuKiJK-m96QDGw_I>
-* Deprecated Draft Document <https://docs.google.com/document/d/1TGBAY631eGSpKAIcp0iVtK5Ns_-AA-n7dX7MmIVgFvw/edit>
-* Images are included in the the file 
+* Images are included in the file are available at
+  <https://github.com/cloudmesh-community/case/blob/master/appendix.md>
