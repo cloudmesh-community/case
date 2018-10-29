@@ -150,7 +150,7 @@ requirement of not using screws and glue:
 2. an interlock system based on cutouts and rectangular wholes so the
    peaces fit nicely.
 
-Du to the iterative design process including the programatic design plans,
+Due to the iterative design process including the programatic design plans,
 build, test, and analyze phase and its iteration The final design was
 refined over time addressing issues that were discovered during the
 actual assembly.

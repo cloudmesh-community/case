@@ -1,5 +1,5 @@
 ---
-title: Cloud Computing
+title: Raspberry Pi Clustr Case
 creator:
 - role: editor
   text: Gregor von Laszewski
