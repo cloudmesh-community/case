@@ -105,6 +105,9 @@ valuable for the student to recognize, does not communicate the effort
 in a short an effective manner to the reader while focussing on the
 deliverables.
 
+*STEM Integration:* Demonstrate that STEM students can meningful 
+contribute to activities done at the University level.
+
 ### Technical Requirements
 
 The following technical requirements exist
