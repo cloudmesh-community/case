@@ -1,6 +1,6 @@
 ---
 title: "Cloudmesh Raspberry PI Cluster Case"
-author: [Gregor von Laszewski, Diego Ansalado, Eliyah Zayin]
+author: [Gregor von Laszewski, Diego Ansalado, Eliyah Zayin, Lori Hoevener]
 date: "2018-05-10"
 subject: "Raspberry Pi Case "
 keywords: [Raspberry PI, Case]

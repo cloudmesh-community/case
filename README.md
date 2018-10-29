@@ -1,6 +1,7 @@
 # Raspbery PI 5 Node Cluster Case
 
-Gregor von Laszewski<sup>1</sup>, Eliyah Zayin<sup>2</sup>, Diego Ansaldo<sup>2</sup>
+Gregor von Laszewski<sup>1</sup>, Eliyah Zayin<sup>2</sup>,
+Diego Ansaldo<sup>2</sup>, Lori Hoevener<sup>2</sup>
 
 * <sup>1</sup>Indiana University, laszewski@gmail.com 
 * <sup>2</sup>The Academy of Science and Entrepreneurship, diegansaldo@gmail.com, eliyahzayin@gmail.com
@@ -360,6 +361,34 @@ boxes based on any dimension provided by the user.
 
 * <https://www.festi.info/boxes.py/>
 
+## Partners
+
+This internship was conducted in partnership with the Academy of
+Science and Entrepreneurship [@www-acadmey-high-school] is a public
+high school located in Bloomington, Indiana, and part of the Monroe
+County Community School Corporation.  Unlike other public high schools
+in Monroe County, the Academy focuses almost exclusively on
+high-quality project-based learning.  Classes are often co-taught and
+subject matter integrated into one course. For example, sophomore
+English and World History are combined into the Global Perspectives
+course taken by all sophomore students and taught by two instructors.
+
+The Academy strongly emphasizes authentic projects and *real world*
+skills; therefore, student internships are strongly encouraged for all
+upperclassmen. Each career exploration internship must be at least
+forty hours in length, and students are required to complete a series
+of reflections, in addition to receiving an evaluation by the
+internship host.  Internships may be completed during the school year
+and/or over summer break.  The Academy is also an early college high
+school and has a strong partnership with Bloomington Ivy Tech, where
+students may take up to five free dual credit classes.  It is through
+all of these experiences that Academy graduates are uniquely prepared
+for post-secondary success.  Additional information can be found at
+the school web site:.
+
+This project served also as prototype to identify opprotunities for
+local high schools to participate in educational activities at the
+University, which it successfully demonstrated.
 
 ## Links
 
