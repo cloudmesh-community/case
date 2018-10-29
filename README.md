@@ -114,7 +114,7 @@ The following technical requirements exist
 
 * Develop a case than can hold up to five PI's of Raspberry PI 3B or PI
   3B+, a network switch that can in addition be plugged into a laptop,
-  and a power supply to power the Pis.
+  and a power supply to power the Pi's.
 
 * No screws or glue needs to be used to assemble the case
 
@@ -152,9 +152,9 @@ requirement of not using screws and glue:
 
 1. a peg and slot system to easily lock in perpendicularly
 2. an interlock system based on cutouts and rectangular wholes so the
-   peaces fit nicely.
+   pieces  fit nicely.
 
-Due to the iterative design process including the programatic design plans,
+Due to the iterative design process including the programmatic  design plans,
 build, test, and analyze phase and its iteration The final design was
 refined over time addressing issues that were discovered during the
 actual assembly.
@@ -174,7 +174,7 @@ Speedy 360 and the Speedy 400. The Speedy 360 has a 813x508mm bed
 while the 400 has a 1000x610mm bed. Acrylic material on these laser
 cutters can be cut up to 6mm. To ensure that the material will fit
 into the laser cutter, ordered acrylic sheets are limited to the
-dimensions of the bed minus a quater inch. The laser cutter has an
+dimensions of the bed minus a quarter inch. The laser cutter has an
 influence on our layout of the design. If you have laser cutters with
 a different bed size, please make appropriate modifications of the
 layout of the parts for the case.
@@ -183,7 +183,7 @@ layout of the parts for the case.
 
 The laser cut parts utilize 3mm cut-to-size acrylic. Although thicker
 material would be more stable, it is not as suitable as its weight is
-more and it ias also more expensive. Thus a decision has been made to
+more and it is also more expensive. Thus a decision has been made to
 stick with the 3mm as it is lighter during the transport. It can be
 purchased for ex ample from
 
@@ -196,7 +196,7 @@ dimensions:
 
 * 21 3/16in x 15in
 
-or in cm runded up to the next cm
+or in cm rounded up to the next cm
 
 * 54cm x 39 cm
 
@@ -228,11 +228,11 @@ The design of the cases were conducted in SCAD.
 SCAD [@www-scad] is a program that can creating 3D CAD models. It is
 freely available for the common operating systems. The special aspect
 about SCAD is that it is based on a programming language to develop
-the model instead of a Graphics interface. This allows a programatic
+the model instead of a Graphics interface. This allows a programmatic
 creation of the model and modification through its programming
-language rather than a drag and dorp interface.
+language rather than a drag and drop interface.
 
-The cad files for the case are shard in scad and svg format in the following location
+The CAD files for the case are shard in SCAD and SVG format in the following location
 
 * <https://github.com/cloudmesh-community/case/tree/master/design/scad>
 
@@ -251,10 +251,10 @@ thickness. For the prototypes, we used a 0.03 point thickness.
 ---
 
 ![](images/warning.png){width=20px} At this time the description of how to identify a reference point
-for scaling is not yet complete. THis can be completed in one of two
+for scaling is not yet complete. This can be completed in one of two
 ways.
 
-1. Keep the scad files as tehy are, but make sure that a concrete
+1. Keep the SCAD files as they are, but make sure that a concrete
    description be added which feature can be used for scaling and how.
 
 2. add a 1x1 cm or 1x1 inch square to the design which serves as
@@ -334,18 +334,18 @@ Future Design Activities include the following activities. We are
 looking for students that would like to take on these tasks and
 contribute to this document.
 
-**Cluster Shelf or Rack:** To accomodate larger clusters in the class
+**Cluster Shelf or Rack:** To accommodate  larger clusters in the class
 setting a shelf is proposed in which we *place* the miniclusters while
 attaching it through a power distribution bar and a large network
 switch to integrate the individual clusters into the larger
 cluster. Furthermore we want to create a product in a box called
 *Cloudmesh Pi Cluster* that we can give to students so they can
-assemble such a cluster themself, or order the parts directly from us
+assemble such a cluster themselves, or order the parts directly from us
 and we ship the parts and the cluster case to them.
 
 **Product Box:** It is useful to be able to distribute such a cluster
 as a Kit, either distributed by us or others. For this we need to
-designa shipping box that includes all parts of a five node cluster
+design a shipping box that includes all parts of a five node cluster
 including an online instruction manual and an artful product label.
 
 **Bitscope Rack:** We have also access to a 19 inch rack based on:
@@ -389,7 +389,7 @@ all of these experiences that Academy graduates are uniquely prepared
 for post-secondary success.  Additional information can be found at
 the school web site:.
 
-This project served also as prototype to identify opprotunities for
+This project served also as prototype to identify opportunities for
 local high schools to participate in educational activities at the
 University, which it successfully demonstrated.
 
