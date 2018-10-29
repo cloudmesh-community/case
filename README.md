@@ -211,7 +211,7 @@ to order the following while using extruded acrylic:
 
 ---
 
-* :o: Student will provide concreate order information
+![](images/warning.png){width=20px} Student will provide concreate order information
 
 ---
 
@@ -246,7 +246,7 @@ thickness. For the prototypes, we used a 0.03 point thickness.
 
 ---
 
-:o: At this time the description of how to identify a reference point
+![](images/warning.png){width=20px} At this time the description of how to identify a reference point
 for scaling is not yet complete. THis can be completed in one of two
 ways.
 
@@ -292,8 +292,12 @@ showcase the assembly of the case alone with pictures, and the other
 one with all electronic components included. Additional images are
 included in the Appendix.
 
-:o: TBD include assembly instruction images (use nice background,
+---
+
+![](images/warning.png){width=20px} TBD include assembly instruction images (use nice background,
 e.g. white or black)
+
+---
 
 ### Final Product
 
