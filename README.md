@@ -15,7 +15,7 @@ This document is published in github at
 ## Abstract
 
 We present the design of a Raspberry Pi cluster case that allows to
-create a cluster created form up to five Raspberry Pis.  The cluster
+create a cluster created form up to five Raspberry Pi's.  The cluster
 is designed for educational purposes as part of a Cloud Engineering
 class taught at Indiana University. The clusters are designed to be
 portable and allow the integration into a *shelf* where multiple such
@@ -31,7 +31,7 @@ of additional components. All design files are openly distributed.
 Raspberry PI's are inexpensive and in contrast to a compute server
 that cost about $15K, one can get a fully operational PI for less than
 $50.  Despite its low cost a number of PIs are an ideal platform for
-developing prototype clusters to use for development of non memory
+developing prototype clusters to use for development of non-memory
 intense cluster services. Naturally it does not have the same compute
 or memory power as a number of $15K servers have, but to showcase some
 of the software services and tools needed to build more expensive
@@ -44,10 +44,10 @@ is housed in a shelf or rack.
 
 We present here our current solution for such a case and also give
 opportunities for further improvements to this effort which can be
-conducted as part of educational activities including highschool,
+conducted as part of educational activities including high school,
 undergraduate, and graduate students that are interested in such
 activities. Alternatives such as virtualizing a cluster entirely in a
-cloud or on a users local computer are discussed in [@las-cloud-eng]
+cloud or on a user's local computer are discussed in [@las-cloud-eng]
 and [@las-cloud-clusters-pi].
 
 ## Requirements
@@ -83,7 +83,7 @@ easy connectors were prototyped, before the whole case was designed.
 alternative designs to be explored and each student member had the
 opportunity to follow their own idea. Exchange of ideas in an open
 environment was however encouraged and improvement suggestions need
-to influence the design process. This is part of a stromg team work
+to influence the design process. This is part of a strong team work
 approach of the activities.
 
 *Documentation:* The activity has a minimal documentation requirement
@@ -102,10 +102,10 @@ report. A paper focusses on how to write an academic paper, while an
 experience report focusses more on what a student has done. We
 identified that the later often leads to information that although
 valuable for the student to recognize, does not communicate the effort
-in a short an effective manner to the reader while focussing on the
+in a short an effective manner to the reader while focusing on the
 deliverables.
 
-*STEM Integration:* Demonstrate that STEM students can meningful 
+*STEM Integration:* Demonstrate that STEM students can meaningful 
 contribute to activities done at the University level.
 
 ### Technical Requirements
