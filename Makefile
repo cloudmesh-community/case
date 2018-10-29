@@ -4,7 +4,7 @@ MARKDOWN-OPTIONS=--verbose --filter pandoc-fignos -f markdown+header_attributes 
 CSL=--csl=template/ieee-with-url.csl
 FORMAT=--from markdown --toc --number-sections -V "numbersections=true" --listings
 FONTS=--epub-embed-font='fonts/*.ttf'
-BIB=--bibliography references.bib
+BIB=--bibliography=references.bib
 CSS=--css=template/epub.css
 RESOURCE=--resource-path=.
 
@@ -20,7 +20,7 @@ pdf:
 	@echo "###############################################################################"
 	@echo "# create" $(FILENAME).pdf
 	@echo "###############################################################################"
-	pandoc --filter pandoc-fignos  title.md version.md README.md   -o $(FILENAME).pdf --from markdown --template "template/eisvogel.latex" --toc -V "numbersections=true" --listings
+	pandoc $(RESOURCE)  $(MARKDOWN-OPTIONS)  $(FORMAT) $(FONTS) $(BIB)  $(CSL) $(CSS)  title.md version.md README.md   -o $(FILENAME).pdf --from markdown --template "template/eisvogel.latex" --toc -V "numbersections=true" --listings
 
 epub: date
 	@echo "###############################################################################"
