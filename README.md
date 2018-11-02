@@ -296,6 +296,47 @@ showcase the assembly of the case alone with pictures, and the other
 one with all electronic components included. Additional images are
 included in the Appendix.
 
+NEW TEXT:
+For reference the below image has associated a letter for each piece.
+
+Step 1:
+    Slot A and C together as shown.
+
+Step 2:
+    Connect B to to A and C. Make sure that all edges are flush against each other.
+
+Step 3:
+    Set the A B C assembly onto D.
+
+Step 4:
+    Place E1 such that A, B, and D slot into it.
+
+Step 5:
+    Connect F and E2 such that F is parallel to A and D and E2 is connected to
+    B, D, and F.
+
+Step 6:
+    B will split the area in the box into two different sized sections. 
+    Slot G1 at an angle into F such that G1 is on the side of the smaller section. 
+    Flatten G1 so it is flush with E 1 and 2.
+
+Step 7:
+    Slot the raspberry pi cluster into the large upper compartment 
+    and the network hub into the lower compartment. Once this is done, G2 can be slotted
+    into F at an angle. Flatten G2 so it is flush with E 1 and 2.
+
+Step 8:
+    Place the power hub into the small compartment and place H so it is flush with 
+    B, C, E1, and E2. G1 and G2 should have protruding tabs that pass through H.
+
+Step 9:
+    The Tabs on G1 and G2 will have slots located at the same level as H. 
+    Insert I 1 and 2 through these slots and rotate until I 1 and 2 lock in place.
+
+Step 10:
+    Connect all wires.
+
+
 ---
 
 ![](images/warning.png){width=20px} TBD include assembly instruction images (use nice background,
