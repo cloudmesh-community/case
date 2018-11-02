@@ -290,18 +290,14 @@ laser cutter as a job.
 
 ### Assembly Instructions
 
-Once the case has been printed it needs to be assembled as
-follows. Our assembly instructions include one instructions to
-showcase the assembly of the case alone with pictures, and the other
-one with all electronic components included. Additional images are
-included in the Appendix.
+Once the case has been printed it needs to be assembled. The detailesd 
+instructions are included in the Section [Case A](#sec:assembly).
+Our assembly instructions include the instructions to
+showcase the assembly of the case alone with pictures.
 
----
+The placement of the components can be identified from pictures 
+of our finished product including cables.
 
-![](images/warning.png){width=20px} TBD include assembly instruction images (use nice background,
-e.g. white or black)
-
----
 
 ### Final Product
 
@@ -394,7 +390,7 @@ local high schools to participate in educational activities at the
 University, which it successfully demonstrated.
 
 
-## Assembly Instructions
+## Assembly Instructions {#sec:assembly}
 
 ### Case A - With lock
 
