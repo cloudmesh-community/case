@@ -393,6 +393,36 @@ This project served also as prototype to identify opportunities for
 local high schools to participate in educational activities at the
 University, which it successfully demonstrated.
 
+
+## Assembly Instructions
+
+### Case A - With lock
+
+
+![Piece Layout](images/case-a/Pieces.PNG)
+
+|     |     |
+| --- | --- |
+| ![Step 1](images/case-a/Step1.PNG){width=50%} | ![Step 2](images/case-a/Step2.PNG){width=50%} |
+| Add A and C |  Add B  |
+|![Step 3](images/case-a/Step3.PNG){width=50%} | ![Step 4](images/case-a/Step4.PNG){width=50%} |
+| Add D |  Add E2   |
+| ![Step 5a](images/case-a/Step5a.PNG){width=50%} | ![Step 5b](images/case-a/Step5b.PNG){width=50%} |
+|  Add F |  Add E1 |
+| ![Step 6a](images/case-a/Step6a.PNG){width=50%} | ![Step 6b](images/case-a/Step6b.PNG){width=50%} |
+|  Add G1  | Lock G1  |
+| ![Step 7a](images/case-a/Step7a.PNG){width=50%} | ![Step 7b](images/case-a/Step7b.PNG){width=50%} |
+|  Add G2  | Lock G2  |
+| ![Step 8](images/case-a/Step8.PNG){width=50%} | ![Step 9a](images/case-a/Step9a.PNG){width=50%} |
+|  Add H | Add L1 L2  |
+| ![Step 9b](images/case-a/Step9b.PNG){width=50%} |    |
+| Twist L1 L2  |   |
+
+
+
+
+
+
 ## Links
 
 * Other cases are at <https://github.com/cloudmesh-community/book/blob/master/chapters/pi/case.md>
