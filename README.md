@@ -264,17 +264,11 @@ To avoid complex instructions the solution 2 seems overall easier.
 
 ---
 
-The design must also be correctly scaled to the right size. So far, we
-have achieved the correct scaling by finding a feature within the
-design and find the correct scale factor by measuring it. We are
-currently considering the possibility of using the size of the
-rectangle the case fits into; this should speed up the process, since
-the dimensions can be viewed in Illustrator by clicking on the
-artboard tab on the right vertical tool bar and selecting the artboard
-settings button. The correct scale factor can be calculated by
-dividing the desired length by the length of the artboard. Then select
-all objects and scale them by the calculated factor.  Once this is
-done, the artboard must be scaled up as well.
+The design must also be correctly scaled to the right size.
+A 1x1 cm reference square is located on part A in the layout given
+below in the assymby instructions.The correct scale factor can be calculated
+by dividing the deired size of the square (10mm) by the length given in the
+program. Select all objects and scale them by the resulting ratio.
 
 Once all editing is done, the design can be cut. This can be done by
 selecting the print option in the graphic design program and clicking
