@@ -266,7 +266,7 @@ To avoid complex instructions the solution 2 seems overall easier.
 
 The design must also be correctly scaled to the right size.
 A 1x1 cm reference square is located on part A in the layout given
-below in the assymby instructions.The correct scale factor can be calculated
+below in the assymby instructions {#sec:assembly}.The correct scale factor can be calculated
 by dividing the deired size of the square (10mm) by the length given in the
 program. Select all objects and scale them by the resulting ratio.
 
