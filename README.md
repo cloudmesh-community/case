@@ -185,7 +185,7 @@ The laser cut parts utilize 3mm cut-to-size acrylic. Although thicker
 material would be more stable, it is not as suitable as its weight is
 more and it is also more expensive. Thus a decision has been made to
 stick with the 3mm as it is lighter during the transport. It can be
-purchased for ex ample from
+purchased for example from
 
 * <https://www.tapplastics.com/product/plastics/cut_to_size_plastic>.
 
@@ -212,6 +212,11 @@ encasement for the power and network equipment.
 
 To build 10 cases that fit on the larger Trotech laser cutter we need
 to order the following while using extruded acrylic:
+
+* Four  23.75in x 38.75in x 3mm acrylic sheets
+
+From Tap Plastics, this will cost a total of $142.60.
+Also note that Tap Plastics only uses inches and denotes 3mm by 1/8in.
 
 ---
 
